@@ -5,6 +5,6 @@ docker rm swimdock_i
 docker build -t=swimdock .
 docker run -d \
         --name swimdock_i \
-        -v "$(pwd)":/app/data \
+        -v "$(pwd)"/data:/app/data \
         swimdock
 docker logs -f swimdock_i
