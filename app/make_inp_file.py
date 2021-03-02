@@ -34,7 +34,7 @@ def make_inp_file(user_input):
     for i, row in subs.iterrows():
         subs.at[i, 'Raingage'] = 'RainGage' + '_' + str(user_input["rain_event"]["return_period"])
 
-    new_file_path = data_dir + 'input.inp'
+    new_file_path = data_dir + 'scenario.inp'
 
     # Overwrite the SUBCATCHMENT section of the new model with the adjusted data
     baseline.inp.save(new_file_path)

@@ -26,9 +26,6 @@ def cityPyoLogin():
     user_id = response.json()['user_id']
 
 
-
-
-
 def get_stormwater_scenarios():
     data = {
         "userid":user_id,
@@ -56,7 +53,7 @@ def perform_swmm_analysis(user_input):
     make_inp_file(user_input)
 
     # run swim
-    args = ('./swmm51015_engine/build/runswmm5', '../data/input.inp', '../data/out.rpt')
+    args = ('./swmm51015_engine/build/runswmm5', '../data/scenario.inp', '../data/scenario.rpt')
     popen = subprocess.Popen(args, stdout=subprocess.PIPE)
     popen.wait()
     out, err = popen.communicate()
@@ -66,23 +63,14 @@ def perform_swmm_analysis(user_input):
         print(err)
     else:
         print("i swam!!")
+        send_response_to_cityPyo(user_input["hash"])
 
 
-    exit()
+def send_response_to_cityPyo(scenario_hash):
+    response = make_result_geojson()
 
 
-    # TODO get geojson to read specific information for subcatchments  // ideally the whole input file would be parsed from that geojson.
-    # how as long as most infromation is static for now , we use a static baseline.inp for now.
 
-
-    # todo : if user_input -> calculation method == "extensive"
-    # create a computation loop
-    # user_input.copy() , custom user_input["rain_event"] for each rain in extensive calc
-
-
-    # TODO
-    #calculate()
-    #make_output_json()
 
 
 if __name__ == "__main__":
