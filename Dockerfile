@@ -22,5 +22,5 @@ RUN cmake --build . --config Release
 # run SWMM
 COPY ./app /app
 WORKDIR /app
-ENTRYPOINT [ "bash", "run_app.sh" ]
+ENTRYPOINT [ "python3", "main.py" ]
 CMD [] 
