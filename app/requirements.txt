@@ -1,4 +1,5 @@
 wheel
 swmmio
 requests
-swmm5
+pyswmm
+swmm-toolkit

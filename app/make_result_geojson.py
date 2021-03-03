@@ -1,5 +1,5 @@
 import os
-import swmmio
+#import swmmio
 
 cwd = os.getcwd()
 data_dir = os.path.dirname(cwd) + "/data/"
@@ -15,10 +15,50 @@ data_dir = os.path.dirname(cwd) + "/data/"
 
 
 def make_result_geojson():
+    #from pyswmm import Simulation, Subcatchments
+    #with Simulation('../data/scenario.inp', '../data/test_report.rpt', None) as sim:
+        #s1 = Subcatchments(sim)["Sub000"]
+        #print(sim.system_units)
+        # for step in sim:
+        #     #print("time: ", sim.current_time)
+        #     #print(s1.runoff)
+        # pass
+    #sim.report()
+    #sim.close()
 
-    # initialize a baseline model object
-    swmm_result = swmmio.Model(data_dir + 'scenario.inp')
+    print("testing tookit")
 
+    from swmm.toolkit import solver
+    solver.swmm_run('../data/scenario.inp', '../data/scenario_test_toolkit.rpt', '../data/scenario_test_toolkit.out')
+
+    from swmm.toolkit import output, shared_enum, output_metadata
+    _handle = output.init()
+    output.open(_handle, '../data/scenario_test_toolkit.out')
+
+    print("  \n")
+
+    name = output.get_elem_name(_handle, shared_enum.SubcatchResult, 1)
+    run_offs = output.get_subcatch_series(_handle, 0, shared_enum.SubcatchAttribute.RUNOFF_RATE, 0, 4*60)
+    output.close(_handle)
+
+    print(name)
+    print(run_offs)
+
+    exit()
+
+
+
+    from pyswmm import Simulation, Subcatchments
+    with Simulation(data_dir + 'scenario.inp') as sim:
+        sim.start()
+        print(sim.report())
+
+        for subcatchment in Subcatchments(sim):
+            print(subcatchment.statistics)
+            print(subcatchment.runoff)
+            print(subcatchment.subcatchmentid)
+
+    exit()
     if not swmm_result.rpt_is_valid():
         print("report file is not valid")
         return False
@@ -37,6 +77,8 @@ def make_result_geojson():
 
 
     print(swmm_result.subcatchments.dataframe.loc['Sub000','TotalRunoffIn'])
+
+    # TODO use
 
 
 
