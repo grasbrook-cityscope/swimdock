@@ -49,8 +49,8 @@ DRY_ONLY        	YES
 [RAINGAGES]
 ;;Name          	Format   	Interval	SCF     	Source    
 ;;--------------	---------	------	------	----------
-RainGage_2        	INTENSITY	0:05    	1       	FILE      	"/home/andre/grasbrook/modules/swimdock/data/rain_data/timeseries_2.txt"	2-yr      	MM
-RainGage_10        	INTENSITY	0:05    	1       	FILE      	"/home/andre/grasbrook/modules/swimdock/data/rain_data/timeseries_10.txt"	10-yr      	MM
+RainGage_2        	INTENSITY	0:05    	1       	FILE      	"../data/rain_data/timeseries_2.txt"	2-yr      	MM
+RainGage_10        	INTENSITY	0:05    	1       	FILE      	"../data/rain_data/timeseries_10.txt"	10-yr      	MM
 
 [SUBCATCHMENTS]
 ;;Name          	Rain Gage       	Outlet          	Area    	%Imperv 	Width   	%Slope  	CurbLen 	SnowPack        
