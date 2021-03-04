@@ -1,87 +1,71 @@
 import os
-#import swmmio
+import json
+import swmmio
+from swmm.toolkit import output, shared_enum, output_metadata
+import datetime
 
 cwd = os.getcwd()
 data_dir = os.path.dirname(cwd) + "/data/"
-
-# no longer needed. we are reading rain gages from individual input files instead
-# def get_timeseries_df(return_period, duration):
-#     name = "%01d-yr_%02d-min" % (return_period, duration)
-#
-#     all_timeseries_df = pd.read_csv(data_dir + "timeseries.csv", sep=" ")
-#     timeseries_df = all_timeseries_df[all_timeseries_df['Name'] == name]
-#
-#     return timeseries_df
+empty_result_geojson = data_dir + 'subcatchments.json'
+runoff_enum = shared_enum.SubcatchAttribute.RUNOFF_RATE
 
 
-def make_result_geojson():
-    #from pyswmm import Simulation, Subcatchments
-    #with Simulation('../data/scenario.inp', '../data/test_report.rpt', None) as sim:
-        #s1 = Subcatchments(sim)["Sub000"]
-        #print(sim.system_units)
-        # for step in sim:
-        #     #print("time: ", sim.current_time)
-        #     #print(s1.runoff)
-        # pass
-    #sim.report()
-    #sim.close()
+# reads simulation duration and report_step_duration from inp file
+def get_sim_duration_and_report_step():
+    # initialize a model model object
+    model = swmmio.Model(data_dir + 'scenario.inp')
 
-    print("testing tookit")
+    inp_start_date = model.inp.options.loc["START_DATE"].values[0]
+    inp_start_time = model.inp.options.loc["START_TIME"].values[0]
 
-    from swmm.toolkit import solver
-    solver.swmm_run('../data/scenario.inp', '../data/scenario_test_toolkit.rpt', '../data/scenario_test_toolkit.out')
+    inp_end_date = model.inp.options.loc["END_DATE"].values[0]
+    inp_end_time = model.inp.options.loc["END_TIME"].values[0]
 
-    from swmm.toolkit import output, shared_enum, output_metadata
+    start_time = datetime.datetime.strptime(inp_start_date + ' ' + inp_start_time, '%d/%m/%Y %H:%M:%S')
+    end_time = datetime.datetime.strptime(inp_end_date + ' ' + inp_end_time, '%d/%m/%Y %H:%M:%S')
+    report_step = datetime.datetime.strptime(model.inp.options.loc["REPORT_STEP"].values[0], '%H:%M:%S').minute
+
+    simulation_duration = int((end_time - start_time).total_seconds() / 60)
+
+    return simulation_duration, report_step
+
+
+# gets local file subcatchments.geojson
+def get_geojson():
+    with open(empty_result_geojson, 'r') as file:
+        return json.load(file)
+
+
+# reads the simulation result, returns it in geojson format
+def get_result_geojson():
+    sim_duration, report_step = get_sim_duration_and_report_step()
+
     _handle = output.init()
-    output.open(_handle, '../data/scenario_test_toolkit.out')
+    output.open(_handle, '../data/scenario.out')
 
-    print("  \n")
+    subcatchment_count = output.get_proj_size(_handle)[0]
 
-    name = output.get_elem_name(_handle, shared_enum.SubcatchResult, 1)
-    run_offs = output.get_subcatch_series(_handle, 0, shared_enum.SubcatchAttribute.RUNOFF_RATE, 0, 4*60)
+    # lookup table for result index by subcatchment name
+    result_sub_indexes = {}
+    for i in range(0, subcatchment_count):
+        result_sub_indexes[output.get_elem_name(_handle, shared_enum.SubcatchResult, i)] = i
+
+    # iterate over subcatchemnt features in geojson and get timeseries results for subcatchment
+    geojson = get_geojson()
+    for feature in geojson["features"]:
+        sub_id = result_sub_indexes[feature["properties"]["Name"]]
+        run_offs = output.get_subcatch_series(_handle, sub_id, runoff_enum, 0, sim_duration)
+        timestamps = [i * report_step for i, val in enumerate(run_offs)]
+        feature["properties"]["runoff_results"] = {
+            "timestamps": timestamps,
+            "runoff_value": run_offs
+        }
+
     output.close(_handle)
 
-    print(name)
-    print(run_offs)
-
-    exit()
-
-
-
-    from pyswmm import Simulation, Subcatchments
-    with Simulation(data_dir + 'scenario.inp') as sim:
-        sim.start()
-        print(sim.report())
-
-        for subcatchment in Subcatchments(sim):
-            print(subcatchment.statistics)
-            print(subcatchment.runoff)
-            print(subcatchment.subcatchmentid)
-
-    exit()
-    if not swmm_result.rpt_is_valid():
-        print("report file is not valid")
-        return False
-
-    print(swmm_result.rpt.headers)
-    for header in swmm_result.rpt.headers:
-        print(header)
-
-    #print(type(swmm_result.rpt.subcatchment_results['Subcatchment Sub000']))
-
-    #print(swmm_result.rpt.subcatchment_results.index)
-    print(swmm_result.rpt.subcatchment_results.info)
-    #print(swmm_result.subcatchments.dataframe.index)
-    #for col in swmm_result.subcatchments.dataframe.columns:
-     #   print(col)
-
-
-    print(swmm_result.subcatchments.dataframe.loc['Sub000','TotalRunoffIn'])
-
-    # TODO use
-
+    return geojson
 
 
 if __name__ == "__main__":
-    make_result_geojson()
+    get_result_geojson()
 

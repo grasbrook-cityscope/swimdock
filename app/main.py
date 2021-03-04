@@ -1,10 +1,10 @@
 import requests
 import json
 import os
-import subprocess
 import time
-from make_inp_file import make_inp_file
 
+from app.make_inp_file import make_inp_file
+from app.make_result_geojson import get_result_geojson
 
 known_hashes = {}
 user_id = None
@@ -14,8 +14,9 @@ data_dir = os.path.dirname(cwd) + "/data/"
 cityPyoUrl = 'http://localhost:5000/'
 
 
-
-def cityPyoLogin():
+# login to cityPyo using the local user_cred_file
+# saves the user_id as global variable
+def cityPyo_login():
     with open(cwd + "/" + "cityPyoUser.json", "r") as user_cred_file:
 
         user_cred = json.load(user_cred_file)
@@ -26,6 +27,7 @@ def cityPyoLogin():
     user_id = response.json()['user_id']
 
 
+# get the stormwater scenarios from cityPyo
 def get_stormwater_scenarios():
     data = {
         "userid":user_id,
@@ -49,107 +51,64 @@ def get_stormwater_scenarios():
     return response.json()
 
 
+# creates an input file from user_input and run the simulation
 def perform_swmm_analysis(user_input):
     make_inp_file(user_input)
 
-    # run swim
-    args = ('./swmm51015_engine/build/runswmm5', '../data/scenario.inp', '../data/scenario.rpt')
-    popen = subprocess.Popen(args, stdout=subprocess.PIPE)
-    popen.wait()
-    out, err = popen.communicate()
-    print(out)
-    if err:
-        print("there was an error in the swmm process")
-        print(err)
-    else:
-        print("i swam!!")
-        send_response_to_cityPyo(user_input["hash"])
+    from swmm.toolkit import solver
+    solver.swmm_run('../data/scenario.inp', '../data/scenario.rpt', '../data/scenario.out')
 
 
+# sends the response to cityPyo, creating a new file as myHash.json
 def send_response_to_cityPyo(scenario_hash):
-    response = make_result_geojson()
+    result = get_result_geojson()
+
+    try:
+        query = scenario_hash
+        data = {
+            "userid": user_id,
+            "data": result
+        }
+        response = requests.post(cityPyoUrl + "addLayerData/" + query, json=data)
+
+        if not response.status_code == 200:
+            print("could not post to cityPyo")
+            print("Error code", response.status_code)
+            # todo raise error and return error
+
+        else:
+            print("\n")
+            print("result send to cityPyo.", "Result hash is: ", scenario_hash)
+            print("waiting for new input...")
+        # exit on request exception (cityIO down)
+    except requests.exceptions.RequestException as e:
+        print("CityPyo error. " + str(e))
 
 
-
-
-
+# Compute loop to run eternally
 if __name__ == "__main__":
-
-    cityPyoLogin()
+    cityPyo_login()
 
     # loop forever
     while True:
         scenarios = get_stormwater_scenarios()
 
+        # compute results for each scenario
         for scenario_id in scenarios.keys():
+            compute = False
             try:
                 old_hash = known_hashes[scenario_id]
-                if old_hash is not scenarios[scenario_id]["hash"]:
-                    # new hash
-                    perform_swmm_analysis(scenarios[scenario_id])
+                if old_hash != scenarios[scenario_id]["hash"]:
+                    # new hash, recomputation needed
+                    compute = True
             except KeyError:
-                # no hash known for scenario_id
+                # no result hash known for scenario_id. Compute result.
+                compute = True
+
+            if compute:
+                print("computing")
                 perform_swmm_analysis(scenarios[scenario_id])
+                send_response_to_cityPyo(scenarios[scenario_id]["hash"])
+                known_hashes[scenario_id] = scenarios[scenario_id]["hash"]
 
-        time.sleep(2)
-
-
-
-
-# import os
-# import swmmio
-# import pandas as pd
-#
-# from pathlib import Path
-# cwd = os.getcwd()
-# data_dir = os.path.dirname(cwd) + "/data/"
-#
-# # initialize a baseline model object
-# baseline = swmmio.Model(data_dir + 'baseline.inp')
-#
-# rpt = baseline.rpt
-#
-# print(baseline.timeseries)
-#
-#
-# from swmmio.core import rpt
-# from swmmio.tests.data import RPT_FULL_FEATURES
-#
-# report = rpt(RPT_FULL_FEATURES)
-#
-# print("summeary")
-# print(report.cross_section_summary)
-#
-# from swmmio.examples import spruce
-#
-# print(spruce.rpt.link_results)
-#
-#
-# exit()
-#
-#
-# # create a dataframe of the model's subcatchments
-# subs = baseline.inp.subcatchments
-#
-# # TODO get subcatchments to be updated from scenario.json
-# updates = [
-#     {
-#         "subcatchment_id": "S5",
-#         "outlet_id": "the_user_changed_this",
-#     }
-# ]
-#
-# print(subs.head())
-#
-# for update in updates:
-#     # update the outlet_id in the row of subcatchment_id
-#     subs.loc[update["subcatchment_id"], ['Outlet']] = update['outlet_id']
-#     baseline.inp.subcatchments = subs
-#
-# print(baseline.inp.subcatchments.head)
-#
-# # copy the base model into a new directory
-# newfilepath = data_dir + 'input.inp'
-#
-# # Overwrite the SUBCATCHMENT section of the new model with the adjusted data
-# baseline.inp.save(newfilepath)
+        time.sleep(1)

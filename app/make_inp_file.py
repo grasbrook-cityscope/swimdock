@@ -4,43 +4,32 @@ import swmmio
 cwd = os.getcwd()
 data_dir = os.path.dirname(cwd) + "/data/"
 
-# no longer needed. we are reading rain gages from individual input files instead
-# def get_timeseries_df(return_period, duration):
-#     name = "%01d-yr_%02d-min" % (return_period, duration)
-#
-#     all_timeseries_df = pd.read_csv(data_dir + "timeseries.csv", sep=" ")
-#     timeseries_df = all_timeseries_df[all_timeseries_df['Name'] == name]
-#
-#     return timeseries_df
-
 
 def make_inp_file(user_input):
-
     # initialize a baseline model object
     baseline = swmmio.Model(data_dir + 'baseline.inp')
 
     # create a dataframe of the model's subcatchments
     subs = baseline.inp.subcatchments
 
-    print(subs.head())
-
+    # reads updates to model from user input and updates the swmmio model
     for update in user_input["model_updates"]:
         # update the outlet_id in the row of subcatchment_id
+
         subs.loc[update["subcatchment_id"], ['Outlet']] = update['outlet_id']
         baseline.inp.subcatchments = subs
 
-    print(baseline.inp.subcatchments.head)
-
+    # set the rain gage from user input as raingage for all subcatchments
+    scenario_rain_gage_name = 'RainGage' + '_' + str(user_input["rain_event"]["return_period"])
     for i, row in subs.iterrows():
-        subs.at[i, 'Raingage'] = 'RainGage' + '_' + str(user_input["rain_event"]["return_period"])
+        subs.at[i, 'Raingage'] = scenario_rain_gage_name
 
+    # Save the new model with the adjusted data
     new_file_path = data_dir + 'scenario.inp'
-
-    # Overwrite the SUBCATCHMENT section of the new model with the adjusted data
     baseline.inp.save(new_file_path)
 
 
-
+# debugging only
 if __name__ == "__main__":
 
     mock_input = {
@@ -58,7 +47,6 @@ if __name__ == "__main__":
         },
         "calculation_method": "normal"
       }
-
 
     make_inp_file(mock_input)
 
