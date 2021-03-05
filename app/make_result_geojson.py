@@ -5,7 +5,7 @@ from swmm.toolkit import output, shared_enum, output_metadata
 import datetime
 
 cwd = os.getcwd()
-data_dir = os.path.dirname(cwd) + "/data/"
+data_dir = (os.path.dirname(cwd) + "/data/").replace("//", "/")
 empty_result_geojson = data_dir + 'subcatchments.json'
 runoff_enum = shared_enum.SubcatchAttribute.RUNOFF_RATE
 

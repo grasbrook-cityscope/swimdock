@@ -2,7 +2,7 @@ import os
 import swmmio
 
 cwd = os.getcwd()
-data_dir = os.path.dirname(cwd) + "/data/"
+data_dir = (os.path.dirname(cwd) + "/data/").replace("//", "/")
 
 
 def make_inp_file(user_input):

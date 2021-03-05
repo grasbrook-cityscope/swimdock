@@ -10,7 +10,7 @@ known_hashes = {}
 user_id = None
 
 cwd = os.getcwd()
-data_dir = os.path.dirname(cwd) + "/data/"
+data_dir = (os.path.dirname(cwd) + "/data/").replace("//", "/")
 cityPyoUrl = 'https://nc.hcu-hamburg.de/cityPyo/'
 
 # login to cityPyo using the local user_cred_file
