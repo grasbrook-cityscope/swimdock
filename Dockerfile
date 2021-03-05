@@ -29,7 +29,6 @@ RUN apt-get install swig -y
 
 WORKDIR /app/swmm-python
 
-RUN git checkout dev-workflow
 RUN git submodule init
 RUN git submodule update
 
