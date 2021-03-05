@@ -1,10 +1,8 @@
-#FROM ubuntu:latest
 FROM python:3.8
 
 RUN apt-get update && apt-get upgrade -y
 
 RUN apt-get install -y unzip wget
-RUN apt-get install python3 python3-pip -y
 RUN apt-get install git -y
 RUN apt-get install build-essential -y
 
