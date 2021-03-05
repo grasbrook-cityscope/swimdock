@@ -11,8 +11,7 @@ user_id = None
 
 cwd = os.getcwd()
 data_dir = os.path.dirname(cwd) + "/data/"
-cityPyoUrl = 'http://localhost:5000/'   # TODO update to nc.hcu-hamburg.de/cityPyo
-
+cityPyoUrl = 'https://nc.hcu-hamburg.de/cityPyo/'
 
 # login to cityPyo using the local user_cred_file
 # saves the user_id as global variable
