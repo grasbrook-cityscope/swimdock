@@ -1,3 +1,4 @@
+aenum==2.2.6
 scikit-build
 wheel
 swmmio
