@@ -62,6 +62,7 @@ def perform_swmm_analysis(user_input):
 
 # sends the response to cityPyo, creating a new file as myHash.json
 def send_response_to_cityPyo(scenario_hash):
+    print("\n sending to cityPyo")
     result = get_result_geojson()
 
     try:
@@ -75,7 +76,6 @@ def send_response_to_cityPyo(scenario_hash):
         if not response.status_code == 200:
             print("could not post to cityPyo")
             print("Error code", response.status_code)
-            # todo : we need an error tracker!
         else:
             print("\n")
             print("result send to cityPyo.", "Result hash is: ", scenario_hash)
