@@ -7,23 +7,19 @@ from make_inp_file import make_inp_file
 from make_result_geojson import get_result_geojson
 
 known_hashes = {}
-user_id = None
 
 cwd = os.getcwd()
 data_dir = (os.path.dirname(cwd) + "/data/").replace("//", "/")
 cityPyoUrl = 'https://nc.hcu-hamburg.de/cityPyo/'
 
+
 # login to cityPyo using the local user_cred_file
 # saves the user_id as global variable
-def cityPyo_login():
+def get_city_pyo_user_id(user_cred):
     print("login in to cityPyo")
-    with open(cwd + "/" + "cityPyoUser.json", "r") as user_cred_file:
-        user_cred = json.load(user_cred_file)
-
     response = requests.post(cityPyoUrl + "login", json=user_cred)
 
-    global user_id
-    user_id = response.json()['user_id']
+    return response.json()['user_id']
 
 
 # get the stormwater scenarios from cityPyo
@@ -87,27 +83,34 @@ def send_response_to_cityPyo(scenario_hash):
 
 # Compute loop to run eternally
 if __name__ == "__main__":
-    cityPyo_login()
+    # load cityPyo users from config
+    with open(cwd + "/" + "cityPyoUser.json", "r") as city_pyo_users:
+        users = json.load(city_pyo_users)
+
+    # get user id's to eternally check for new scenario data for each user
+    user_ids = []
+    for user_cred in users["users"]:
+        user_ids.append(get_city_pyo_user_id(user_cred))
 
     # loop forever
     while True:
-        scenarios = get_stormwater_scenarios()
-
-        # compute results for each scenario
-        for scenario_id in scenarios.keys():
-            compute = False
-            try:
-                old_hash = known_hashes[scenario_id]
-                if old_hash != scenarios[scenario_id]["hash"]:
-                    # new hash, recomputation needed
+        for user_id in user_ids:
+            # compute results for each scenario
+            scenarios = get_stormwater_scenarios()
+            for scenario_id in scenarios.keys():
+                compute = False
+                try:
+                    old_hash = known_hashes[scenario_id]
+                    if old_hash != scenarios[scenario_id]["hash"]:
+                        # new hash, recomputation needed
+                        compute = True
+                except KeyError:
+                    # no result hash known for scenario_id. Compute result.
                     compute = True
-            except KeyError:
-                # no result hash known for scenario_id. Compute result.
-                compute = True
 
-            if compute:
-                perform_swmm_analysis(scenarios[scenario_id])
-                send_response_to_cityPyo(scenarios[scenario_id]["hash"])
-                known_hashes[scenario_id] = scenarios[scenario_id]["hash"]
+                if compute:
+                    perform_swmm_analysis(scenarios[scenario_id])
+                    send_response_to_cityPyo(scenarios[scenario_id]["hash"])
+                    known_hashes[scenario_id] = scenarios[scenario_id]["hash"]
 
-        time.sleep(1)
+            time.sleep(1)
