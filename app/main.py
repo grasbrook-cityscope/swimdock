@@ -92,6 +92,10 @@ if __name__ == "__main__":
     for user_cred in users["users"]:
         user_ids.append(get_city_pyo_user_id(user_cred))
 
+    for user_id in user_ids:
+        # init known hashes for user
+        known_hashes[user_id] = {}
+
     # loop forever
     while True:
         for user_id in user_ids:
@@ -100,7 +104,7 @@ if __name__ == "__main__":
             for scenario_id in scenarios.keys():
                 compute = False
                 try:
-                    old_hash = known_hashes[scenario_id]
+                    old_hash = known_hashes[user_id][scenario_id]
                     if old_hash != scenarios[scenario_id]["hash"]:
                         # new hash, recomputation needed
                         compute = True
@@ -111,6 +115,6 @@ if __name__ == "__main__":
                 if compute:
                     perform_swmm_analysis(scenarios[scenario_id])
                     send_response_to_cityPyo(scenarios[scenario_id]["hash"])
-                    known_hashes[scenario_id] = scenarios[scenario_id]["hash"]
+                    known_hashes[user_id][scenario_id] = scenarios[scenario_id]["hash"]
 
             time.sleep(1)
