@@ -48,12 +48,20 @@ def get_result_geojson():
     # lookup table for result index by subcatchment name
     result_sub_indexes = {}
     for i in range(0, subcatchment_count):
-        result_sub_indexes[output.get_elem_name(_handle, shared_enum.SubcatchResult, i)] = i
-
+        try:
+            result_sub_indexes[output.get_elem_name(_handle, shared_enum.SubcatchResult, i)] = i
+        except:
+            print("missing a sub?? ", i)
     # iterate over subcatchemnt features in geojson and get timeseries results for subcatchment
     geojson = get_geojson()
+
     for feature in geojson["features"]:
-        sub_id = result_sub_indexes[feature["properties"]["Name"]]
+        try:
+            sub_id = result_sub_indexes[feature["properties"]["name_sub"]]
+        except:
+            print("missing sub id in result", sub_id)
+            continue
+
         run_offs = output.get_subcatch_series(_handle, sub_id, runoff_enum, 0, sim_duration)
         timestamps = [i * report_step for i, val in enumerate(run_offs)]
         feature["properties"]["runoff_results"] = {

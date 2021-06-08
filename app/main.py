@@ -47,13 +47,17 @@ def get_stormwater_scenarios():
 
 
 # creates an input file from user_input and run the simulation
-def perform_swmm_analysis(user_input):
+def perform_swmm_analysis(filename):
     print("making input file")
-    make_inp_file(user_input)
+    #make_inp_file(user_input)
 
     print("computing")
     from swmm.toolkit import solver
-    solver.swmm_run('../data/scenario.inp', '../data/scenario.rpt', '../data/scenario.out')
+    #solver.swmm_run('../data/scenario.inp', '../data/scenario.rpt', '../data/scenario.out')
+    input_file = '../data/input_files/' + filename
+
+    print(input_file)
+    solver.swmm_run(input_file, '../data/scenario.rpt', '../data/scenario.out')
 
 
 # sends the response to cityPyo, creating a new file as myHash.json
@@ -83,6 +87,28 @@ def send_response_to_cityPyo(scenario_hash):
 
 # Compute loop to run eternally
 if __name__ == "__main__":
+
+    from os import walk
+
+    input_files_dir = (os.path.dirname(cwd) + "/data/input_files/").replace("//", "/")
+    result_files_dir = (os.path.dirname(cwd) + "/data/result_geojson/").replace("//", "/")
+
+    _, _, filenames = next(walk(input_files_dir))
+
+    for filename in filenames:
+        print(filename)
+
+        # todo for filename in all input fiile name
+        perform_swmm_analysis(filename)  # file name
+        result = get_result_geojson()
+
+        #print(result)
+
+        with open(result_files_dir + filename, 'w') as fp:
+            json.dump(result, fp)
+
+    exit()
+
     # load cityPyo users from config
     with open(cwd + "/" + "cityPyoUser.json", "r") as city_pyo_users:
         users = json.load(city_pyo_users)
