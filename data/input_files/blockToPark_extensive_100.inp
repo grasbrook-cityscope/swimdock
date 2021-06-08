@@ -58,1012 +58,1018 @@ RG_100yr        	INTENSITY	0:05    	1       	FILE      	"../data/rain_data/times
 [SUBCATCHMENTS]
 ;;Name          	Rain Gage       	Outlet          	Area    	%Imperv 	Width   	%Slope  	CurbLen 	SnowPack        
 ;;--------------	----------------	----------------	--------	--------	--------	--------	--------	----------------
-Sub000	RG_100yr	outfall1	0.0228	100	11.4	2	0
-Sub001	RG_100yr	outfall1	0.1984	100	99.2	2	0
-Sub002	RG_100yr	outfall1	0.0469	100	23.5	2	0
-Sub003	RG_100yr	outfall1	0.0469	100	23.5	2	0
-Sub004	RG_100yr	outfall1	0.0576	100	19.2	2	0
-Sub005	RG_100yr	outfall1	0.0449	100	15	2	0
-Sub006	RG_100yr	outfall1	0.0449	100	15	2	0
-Sub007	RG_100yr	outfall1	0.0576	100	19.2	2	0
-Sub008	RG_100yr	outfall1	0.0576	100	19.2	2	0
-Sub009	RG_100yr	outfall1	0.0615	100	20.5	2	0
-Sub010	RG_100yr	outfall1	0.0615	100	20.5	2	0
-Sub011	RG_100yr	outfall1	0.0615	100	20.5	2	0
-Sub012	RG_100yr	outfall1	0.0576	100	19.2	2	0
-Sub013	RG_100yr	outfall1	0.0615	100	20.5	2	0
-Sub014	RG_100yr	outfall1	0.0615	100	20.5	2	0
-Sub015	RG_100yr	outfall1	0.0615	100	20.5	2	0
-Sub016	RG_100yr	outfall1	0.0576	100	19.2	2	0
-Sub017	RG_100yr	outfall1	0.0615	100	20.5	2	0
-Sub018	RG_100yr	outfall1	0.0615	100	20.5	2	0
-Sub019	RG_100yr	outfall1	0.0615	100	20.5	2	0
-Sub020	RG_100yr	outfall1	0.0576	100	19.2	2	0
-Sub021	RG_100yr	outfall1	0.2555	100	85.2	2	0
-Sub022	RG_100yr	outfall1	0.0342	100	11.4	2	0
-Sub023	RG_100yr	Sub357	0.063	100	21	2	0
-Sub024	RG_100yr	Sub357	0.0548	100	18.3	2	0
-Sub025	RG_100yr	Sub357	0.0486	100	16.2	2	0
-Sub026	RG_100yr	Sub357	0.0635	100	21.2	2	0
-Sub027	RG_100yr	Sub357	0.0988	100	49.4	2	0
-Sub028	RG_100yr	Sub356	0.0723	100	24.1	2	0
-Sub029	RG_100yr	Sub356	0.074	100	24.7	2	0
-Sub030	RG_100yr	Sub356	0.0508	100	16.9	2	0
-Sub031	RG_100yr	Sub356	0.0457	100	15.2	2	0
-Sub032	RG_100yr	Sub356	0.049	100	16.3	2	0
-Sub033	RG_100yr	Sub356	0.04	100	13.3	2	0
-Sub034	RG_100yr	Sub356	0.0911	100	45.6	2	0
-Sub035	RG_100yr	Sub418	0.0551	100	18.4	2	0
-Sub036	RG_100yr	Sub418	0.0737	100	24.6	2	0
-Sub037	RG_100yr	Sub418	0.0508	100	16.9	2	0
-Sub038	RG_100yr	Sub418	0.064	100	21.3	2	0
-Sub039	RG_100yr	Sub418	0.062	100	20.7	2	0
-Sub040	RG_100yr	Sub418	0.04	100	13.3	2	0
-Sub041	RG_100yr	Sub418	0.0882	100	29.4	2	0
-Sub042	RG_100yr	Sub418	0.0468	100	23.4	2	0
-Sub043	RG_100yr	Sub399	0.0642	100	21.4	2	0
-Sub044	RG_100yr	Sub399	0.0741	100	24.7	2	0
-Sub045	RG_100yr	Sub399	0.0508	100	16.9	2	0
-Sub046	RG_100yr	Sub399	0.0541	100	27.1	2	0
-Sub047	RG_100yr	Sub399	0.058	100	19.3	2	0
-Sub048	RG_100yr	Sub399	0.0557	100	18.6	2	0
-Sub049	RG_100yr	Sub399	0.0975	100	32.5	2	0
-Sub050	RG_100yr	Sub399	0.04	100	13.3	2	0
-Sub051	RG_100yr	Sub399	0.058	100	19.3	2	0
-Sub052	RG_100yr	Sub389	0.0566	100	18.9	2	0
-Sub053	RG_100yr	Sub389	0.1026	100	34.2	2	0
-Sub054	RG_100yr	Sub389	0.0837	100	27.9	2	0
-Sub055	RG_100yr	Sub389	0.0725	100	24.2	2	0
-Sub056	RG_100yr	Sub389	0.04	100	13.3	2	0
-Sub057	RG_100yr	Sub389	0.1221	100	61.1	2	0
-Sub058	RG_100yr	Sub389	0.0572	100	19.1	2	0
-Sub059	RG_100yr	Sub389	0.058	100	19.3	2	0
-Sub060	RG_100yr	outfall1	0.121	100	60.5	2	0
-Sub061	RG_100yr	outfall1	0.0846	100	28.2	2	0
-Sub062	RG_100yr	outfall1	0.1201	100	40	2	0
-Sub063	RG_100yr	outfall1	0.0929	100	31	2	0
-Sub064	RG_100yr	outfall1	0.0929	100	31	2	0
-Sub065	RG_100yr	outfall1	0.0929	100	31	2	0
-Sub066	RG_100yr	outfall1	0.9272	100	309.1	2	0
-Sub067	RG_100yr	outfall1	0.1157	100	38.6	2	0
-Sub068	RG_100yr	outfall1	0.6725	100	224.2	2	0
-Sub069	RG_100yr	outfall1	0.1199	100	40	2	0
-Sub070	RG_100yr	outfall1	0.4341	100	144.7	2	0
-Sub071	RG_100yr	outfall1	0.7996	100	266.5	2	0
-Sub072	RG_100yr	outfall1	0.7948	80	529.9	2	0
-Sub073	RG_100yr	outfall1	0.0877	100	29.2	2	0
-Sub074	RG_100yr	outfall1	0.2581	0	86	2	0
-Sub075	RG_100yr	outfall1	0.0024	100	6	1.5	0
-Sub076	RG_100yr	outfall1	0.0476	100	119	1.5	0
-Sub077	RG_100yr	outfall1	0.0411	100	102.8	1.5	0
-Sub078	RG_100yr	outfall1	0.0009	100	2.3	1.5	0
-Sub079	RG_100yr	outfall1	0.0556	0	18.5	2	0
-Sub080	RG_100yr	outfall1	0.018	100	45	1.5	0
-Sub081	RG_100yr	outfall1	0.1852	100	463	1.5	0
-Sub083	RG_100yr	outfall1	0.0038	100	9.5	1.5	0
-Sub084	RG_100yr	outfall1	0.0022	100	5.5	1.5	0
-Sub085	RG_100yr	outfall1	0.0022	100	5.5	1.5	0
-Sub086	RG_100yr	outfall1	0.0022	100	5.5	1.5	0
-Sub087	RG_100yr	outfall1	0.0022	100	5.5	1.5	0
-Sub088	RG_100yr	outfall1	0.0027	100	6.8	1.5	0
-Sub089	RG_100yr	outfall1	0.016	0	5.3	2	0
-Sub090	RG_100yr	outfall1	0.018	0	6	2	0
-Sub092	RG_100yr	outfall1	0.0309	0	10.3	2	0
-Sub093	RG_100yr	outfall1	0.1852	100	463	1.5	0
-Sub094	RG_100yr	outfall1	0.1826	100	456.5	1.5	0
-Sub095	RG_100yr	outfall1	0.0141	100	35.3	1.5	0
-Sub096	RG_100yr	outfall1	0.0167	100	41.8	1.5	0
-Sub097	RG_100yr	outfall1	0.0162	100	40.5	1.5	0
-Sub098	RG_100yr	outfall1	0.0523	100	130.8	1.5	0
-Sub099	RG_100yr	outfall1	0.152	100	380	1.5	0
-Sub100	RG_100yr	outfall1	0.0029	100	7.3	1.5	0
-Sub101	RG_100yr	outfall1	0.008	100	20	1.5	0
-Sub102	RG_100yr	outfall1	0.0084	100	21	1.5	0
-Sub103	RG_100yr	outfall1	0.0154	100	38.5	1.5	0
-Sub104	RG_100yr	outfall1	0.4339	0	144.6	2	0
-Sub105	RG_100yr	outfall1	0.884	0	294.7	2	0
-Sub106	RG_100yr	outfall1	0.039	100	19.5	1.5	0
-Sub107	RG_100yr	outfall1	0.0289	100	14.5	1.5	0
-Sub108	RG_100yr	outfall1	0.0375	100	18.8	1.5	0
-Sub109	RG_100yr	outfall1	0.0593	0	19.8	2	0
-Sub110	RG_100yr	outfall1	0.0169	100	42.3	1.5	0
-Sub111	RG_100yr	outfall1	0.0226	100	56.5	1.5	0
-Sub112	RG_100yr	outfall1	0.0238	100	59.5	1.5	0
-Sub113	RG_100yr	outfall1	0.1807	80	120.5	2	0
-Sub114	RG_100yr	outfall1	0.01	80	6.7	2	0
-Sub115	RG_100yr	outfall1	0.077	100	192.5	1.5	0
-Sub116	RG_100yr	outfall1	0.0192	100	48	1.5	0
-Sub117	RG_100yr	outfall1	0.0192	100	48	1.5	0
-Sub118	RG_100yr	outfall1	0.0192	100	48	1.5	0
-Sub119	RG_100yr	outfall1	0.0312	100	78	1.5	0
-Sub120	RG_100yr	outfall1	0.0029	100	7.3	1.5	0
-Sub121	RG_100yr	outfall1	0.0208	80	13.9	2	0
-Sub122	RG_100yr	outfall1	0.0174	80	11.6	2	0
-Sub123	RG_100yr	outfall1	0.0173	80	11.5	2	0
-Sub124	RG_100yr	outfall1	0.0223	80	14.9	2	0
-Sub125	RG_100yr	outfall1	0.0544	80	36.3	2	0
-Sub126	RG_100yr	outfall1	0.0401	80	26.7	2	0
-Sub127	RG_100yr	outfall1	0.0289	80	19.3	2	0
-Sub128	RG_100yr	outfall1	0.0015	100	3.8	1.5	0
-Sub129	RG_100yr	outfall1	0.0028	100	7	1.5	0
-Sub130	RG_100yr	outfall1	0.005	100	12.5	1.5	0
-Sub131	RG_100yr	outfall1	0.0034	100	8.5	1.5	0
-Sub132	RG_100yr	outfall1	0.0133	100	33.3	1.5	0
-Sub133	RG_100yr	outfall1	0.0997	100	49.9	1.5	0
-Sub134	RG_100yr	outfall1	0.0138	0	4.6	2	0
-Sub135	RG_100yr	outfall1	0.0502	0	16.7	2	0
-Sub136	RG_100yr	outfall1	0.0683	0	22.8	2	0
-Sub137	RG_100yr	outfall1	0.1004	0	33.5	2	0
-Sub138	RG_100yr	outfall1	0.1155	0	38.5	2	0
-Sub139	RG_100yr	outfall1	0.0721	80	48.1	2	0
-Sub140	RG_100yr	outfall1	0.0364	80	24.3	2	0
-Sub141	RG_100yr	outfall1	0.1537	100	384.3	1.5	0
-Sub142	RG_100yr	outfall1	0.1423	100	355.8	1.5	0
-Sub143	RG_100yr	outfall1	0.1532	100	383	1.5	0
-Sub144	RG_100yr	outfall1	0.2325	100	581.3	1.5	0
-Sub145	RG_100yr	outfall1	0.0026	100	6.5	1.5	0
-Sub146	RG_100yr	outfall1	0.1875	0	62.5	2	0
-Sub147	RG_100yr	outfall1	0.0985	100	246.3	1.5	0
-Sub148	RG_100yr	outfall1	0.0573	100	143.3	1.5	0
-Sub149	RG_100yr	outfall1	0.0877	100	219.3	1.5	0
-Sub150	RG_100yr	outfall1	0.0258	100	64.5	1.5	0
-Sub151	RG_100yr	outfall1	0.0213	100	53.3	1.5	0
-Sub152	RG_100yr	outfall1	0.0041	100	10.3	1.5	0
-Sub153	RG_100yr	outfall1	0.0088	100	22	1.5	0
-Sub154	RG_100yr	outfall1	0.2643	0	88.1	2	0
-Sub155	RG_100yr	outfall1	0.0264	100	66	1.5	0
-Sub156	RG_100yr	outfall1	0.0379	100	94.8	1.5	0
-Sub157	RG_100yr	outfall1	0.0077	100	19.3	1.5	0
-Sub158	RG_100yr	outfall1	0.0091	100	22.8	1.5	0
-Sub159	RG_100yr	outfall1	0.0022	100	5.5	1.5	0
-Sub160	RG_100yr	outfall1	0.0067	100	16.8	1.5	0
-Sub161	RG_100yr	outfall1	0.0423	100	105.8	1.5	0
-Sub162	RG_100yr	outfall1	0.3079	0	102.6	2	0
-Sub163	RG_100yr	outfall1	0.028	80	18.7	2	0
-Sub164	RG_100yr	outfall1	0.0898	0	29.9	2	0
-Sub165	RG_100yr	outfall1	0.0274	100	68.5	1.5	0
-Sub166	RG_100yr	outfall1	0.0633	100	158.3	1.5	0
-Sub167	RG_100yr	outfall1	0.0183	100	61	2.5	0
-Sub168	RG_100yr	outfall1	0.0127	100	31.8	1.5	0
-Sub169	RG_100yr	outfall1	0.0162	100	40.5	1.5	0
-Sub170	RG_100yr	outfall1	0.0462	100	23.1	1.5	0
-Sub171	RG_100yr	outfall1	0.0227	100	11.4	1.5	0
-Sub172	RG_100yr	outfall1	0.0208	100	10.4	1.5	0
-Sub173	RG_100yr	outfall1	0.2006	80	133.7	2	0
-Sub174	RG_100yr	outfall1	1.0474	100	523.7	1.5	0
-Sub175	RG_100yr	outfall1	0.0045	100	11.3	1.5	0
-Sub176	RG_100yr	outfall1	0.0045	100	11.3	1.5	0
-Sub177	RG_100yr	outfall1	0.0384	100	19.2	1.5	0
-Sub178	RG_100yr	outfall1	0.0121	100	6.1	1.5	0
-Sub179	RG_100yr	outfall1	0.065	80	43.3	2	0
-Sub180	RG_100yr	outfall1	0.063	100	157.5	1.5	0
-Sub181	RG_100yr	outfall1	0.2363	0	78.8	2	0
-Sub182	RG_100yr	outfall1	0.1409	0	47	2	0
-Sub183	RG_100yr	outfall1	0.0136	0	4.5	2	0
-Sub184	RG_100yr	outfall1	0.1227	0	40.9	2	0
-Sub185	RG_100yr	outfall1	0.047	0	15.7	2	0
-Sub186	RG_100yr	outfall1	0.2239	0	74.6	2	0
-Sub187	RG_100yr	outfall1	0.1501	0	50	2	0
-Sub188	RG_100yr	outfall1	0.1046	0	34.9	2	0
-Sub189	RG_100yr	outfall1	0.086	0	28.7	2	0
-Sub190	RG_100yr	outfall1	0.1816	0	60.5	2	0
-Sub191	RG_100yr	outfall1	0.013	0	4.3	2	0
-Sub192	RG_100yr	outfall1	0.0027	100	6.8	1.5	0
-Sub193	RG_100yr	outfall1	0.0048	0	1.6	2	0
-Sub194	RG_100yr	outfall1	0.0436	0	14.5	2	0
-Sub195	RG_100yr	outfall1	0.0117	0	3.9	2	0
-Sub196	RG_100yr	outfall1	0.1529	0	51	2	0
-Sub197	RG_100yr	outfall1	0.0094	100	31.3	2.5	0
-Sub198	RG_100yr	outfall1	0.0307	80	20.5	2	0
-Sub199	RG_100yr	outfall1	0.0855	100	213.8	1.5	0
-Sub200	RG_100yr	outfall1	0.1056	100	264	1.5	0
-Sub201	RG_100yr	outfall1	0.2334	0	77.8	2	0
-Sub202	RG_100yr	outfall1	0.1721	0	57.4	2	0
-Sub203	RG_100yr	outfall1	0.05	0	16.7	2	0
-Sub204	RG_100yr	outfall1	0.044	0	14.7	2	0
-Sub205	RG_100yr	outfall1	0.044	0	14.7	2	0
-Sub206	RG_100yr	outfall1	0.05	0	16.7	2	0
-Sub207	RG_100yr	outfall1	0.1697	0	56.6	2	0
-Sub208	RG_100yr	outfall1	0.0802	100	40.1	1.5	0
-Sub209	RG_100yr	outfall1	0.0016	100	4	1.5	0
-Sub210	RG_100yr	outfall1	0.0168	0	5.6	2	0
-Sub211	RG_100yr	outfall1	0.1786	100	89.3	1.5	0
-Sub212	RG_100yr	outfall1	0.013	100	32.5	1.5	0
-Sub213	RG_100yr	outfall1	0.0016	100	4	1.5	0
-Sub214	RG_100yr	outfall1	0.0389	100	97.3	1.5	0
-Sub215	RG_100yr	outfall1	0.007	100	17.5	1.5	0
-Sub216	RG_100yr	outfall1	0.0348	0	11.6	2	0
-Sub217	RG_100yr	outfall1	0.0267	100	66.8	1.5	0
-Sub218	RG_100yr	outfall1	0.0003	100	0.8	1.5	0
-Sub219	RG_100yr	outfall1	0.0045	100	11.3	1.5	0
-Sub220	RG_100yr	outfall1	0.0007	0	0.2	2	0
-Sub221	RG_100yr	outfall1	0.0031	100	1.6	1.5	0
-Sub222	RG_100yr	outfall1	0.0001	0	0	2	0
-Sub223	RG_100yr	outfall1	0.0656	0	21.9	2	0
-Sub224	RG_100yr	outfall1	0.036	80	24	2	0
-Sub225	RG_100yr	outfall1	0.0705	80	47	2	0
-Sub226	RG_100yr	outfall1	0.0609	80	40.6	2	0
-Sub228	RG_100yr	outfall1	0.0021	100	5.3	1.5	0
-Sub229	RG_100yr	outfall1	0.0696	100	174	1.5	0
-Sub230	RG_100yr	outfall1	0.0024	100	6	1.5	0
-Sub231	RG_100yr	outfall1	0.0199	0	6.6	2	0
-Sub232	RG_100yr	outfall1	0.0811	0	27	2	0
-Sub233	RG_100yr	outfall1	0.04	0	13.3	2	0
-Sub234	RG_100yr	outfall1	0.0023	100	5.8	1.5	0
-Sub235	RG_100yr	outfall1	0.0037	0	1.2	2	0
-Sub236	RG_100yr	outfall1	0.0023	100	5.8	1.5	0
-Sub237	RG_100yr	outfall1	0.0767	100	191.8	1.5	0
-Sub238	RG_100yr	outfall1	0.0729	80	48.6	2	0
-Sub239	RG_100yr	outfall1	0.1338	100	66.9	1.5	0
-Sub240	RG_100yr	outfall1	0.0786	100	39.3	1.5	0
-Sub241	RG_100yr	outfall1	0.0106	100	26.5	1.5	0
-Sub242	RG_100yr	outfall1	0.0999	100	249.8	1.5	0
-Sub243	RG_100yr	outfall1	0.8604	80	573.6	2	0
-Sub244	RG_100yr	outfall1	0.0152	100	38	1.5	0
-Sub245	RG_100yr	outfall1	0.0867	0	28.9	2	0
-Sub246	RG_100yr	outfall1	0.1973	0	65.8	2	0
-Sub247	RG_100yr	outfall1	0.1797	0	59.9	2	0
-Sub248	RG_100yr	outfall1	0.1457	100	72.9	1.5	0
-Sub249	RG_100yr	outfall1	0.2233	0	74.4	2	0
-Sub250	RG_100yr	outfall1	0.0801	0	26.7	2	0
-Sub251	RG_100yr	outfall1	0.0211	100	52.8	1.5	0
-Sub252	RG_100yr	outfall1	0.1952	80	130.1	2	0
-Sub253	RG_100yr	outfall1	0.02	80	13.3	2	0
-Sub254	RG_100yr	outfall1	0.3131	0	104.4	2	0
-Sub255	RG_100yr	outfall1	0.0084	100	21	1.5	0
-Sub256	RG_100yr	outfall1	0.001	0	0.3	2	0
-Sub257	RG_100yr	outfall1	0.0343	0	11.4	2	0
-Sub258	RG_100yr	outfall1	0.062	0	20.7	2	0
-Sub259	RG_100yr	outfall1	0.02	100	50	1.5	0
-Sub260	RG_100yr	outfall1	0.004	100	10	1.5	0
-Sub261	RG_100yr	outfall1	0.0605	100	151.3	1.5	0
-Sub262	RG_100yr	outfall1	0.7569	0	252.3	2	0
-Sub263	RG_100yr	outfall1	0.0019	100	4.8	1.5	0
-Sub264	RG_100yr	outfall1	0.2669	80	177.9	2	0
-Sub265	RG_100yr	outfall1	0.12	0	40	2	0
-Sub266	RG_100yr	outfall1	0.03	80	20	2	0
-Sub267	RG_100yr	outfall1	0.025	80	16.7	2	0
-Sub268	RG_100yr	outfall1	0.03	80	20	2	0
-Sub269	RG_100yr	outfall1	0.0288	0	9.6	2	0
-Sub270	RG_100yr	outfall1	0.0045	0	1.5	2	0
-Sub271	RG_100yr	outfall1	0.0285	0	9.5	2	0
-Sub272	RG_100yr	outfall1	0.0914	0	30.5	2	0
-Sub273	RG_100yr	outfall1	0.0534	0	17.8	2	0
-Sub274	RG_100yr	outfall1	0.0742	0	24.7	2	0
-Sub275	RG_100yr	outfall1	0.0033	0	1.1	2	0
-Sub276	RG_100yr	outfall1	0.0223	80	14.9	2	0
-Sub277	RG_100yr	outfall1	0.3525	100	1175	2.5	0
-Sub278	RG_100yr	outfall1	0.127	100	423.3	2.5	0
-Sub279	RG_100yr	outfall1	0.0257	100	85.7	2.5	0
-Sub280	RG_100yr	outfall1	0.0037	0	1.2	2	0
-Sub281	RG_100yr	outfall1	0.0547	80	36.5	2	0
-Sub282	RG_100yr	outfall1	0.0326	100	108.7	2.5	0
-Sub283	RG_100yr	outfall1	0.4006	100	1335.3	2.5	0
-Sub284	RG_100yr	outfall1	0.0333	100	111	2.5	0
-Sub285	RG_100yr	outfall1	0.398	100	1326.7	2.5	0
-Sub286	RG_100yr	outfall1	0.3406	100	1135.3	2.5	0
-Sub287	RG_100yr	outfall1	0.2192	100	730.7	2.5	0
-Sub288	RG_100yr	outfall1	0.0229	80	15.3	2	0
-Sub289	RG_100yr	outfall1	0.0013	100	3.3	1.5	0
-Sub290	RG_100yr	outfall1	0.0216	80	14.4	2	0
-Sub291	RG_100yr	outfall1	0.0046	100	2.3	1.5	0
-Sub292	RG_100yr	outfall1	0.0364	100	91	1.5	0
-Sub293	RG_100yr	outfall1	0.0095	100	23.8	1.5	0
-Sub294	RG_100yr	outfall1	0.0201	100	50.3	1.5	0
-Sub295	RG_100yr	outfall1	0.0065	100	16.3	1.5	0
-Sub296	RG_100yr	outfall1	0.151	0	50.3	2	0
-Sub297	RG_100yr	outfall1	0.0516	0	17.2	2	0
-Sub298	RG_100yr	outfall1	0.003	100	7.5	1.5	0
-Sub299	RG_100yr	outfall1	0.0016	100	4	1.5	0
-Sub300	RG_100yr	outfall1	0.0009	100	2.3	1.5	0
-Sub301	RG_100yr	outfall1	0.0025	100	6.3	1.5	0
-Sub302	RG_100yr	outfall1	0.0233	100	11.7	1.5	0
-Sub303	RG_100yr	outfall1	0.0279	100	69.8	1.5	0
-Sub304	RG_100yr	outfall1	0.0385	100	19.3	1.5	0
-Sub305	RG_100yr	outfall1	0.0154	100	7.7	1.5	0
-Sub306	RG_100yr	outfall1	0.0028	100	7	1.5	0
-Sub307	RG_100yr	outfall1	0.0016	100	4	1.5	0
-Sub308	RG_100yr	outfall1	0.0009	0	0.3	2	0
-Sub309	RG_100yr	outfall1	0.0191	100	9.6	1.5	0
-Sub310	RG_100yr	outfall1	0.0016	100	4	1.5	0
-Sub311	RG_100yr	outfall1	0.0009	0	0.3	2	0
-Sub312	RG_100yr	outfall1	0.0148	100	7.4	1.5	0
-Sub313	RG_100yr	outfall1	0.0035	100	8.8	1.5	0
-Sub314	RG_100yr	outfall1	0.0009	0	0.3	2	0
-Sub315	RG_100yr	outfall1	0.002	100	5	1.5	0
-Sub316	RG_100yr	outfall1	0.0006	100	1.5	1.5	0
-Sub317	RG_100yr	outfall1	0.0107	100	5.4	1.5	0
-Sub318	RG_100yr	outfall1	0.0036	100	9	1.5	0
-Sub319	RG_100yr	outfall1	0.0019	100	4.8	1.5	0
-Sub320	RG_100yr	outfall1	0.0056	100	2.8	1.5	0
-Sub321	RG_100yr	outfall1	0.0127	100	6.4	1.5	0
-Sub322	RG_100yr	outfall1	0.0025	100	6.3	1.5	0
-Sub323	RG_100yr	outfall1	0.0016	100	4	1.5	0
-Sub324	RG_100yr	outfall1	0.0384	100	19.2	1.5	0
-Sub325	RG_100yr	outfall1	0.0384	100	19.2	1.5	0
-Sub326	RG_100yr	outfall1	0.0076	0	2.5	2	0
-Sub327	RG_100yr	outfall1	0.003	100	1.5	1.5	0
-Sub328	RG_100yr	outfall1	0.003	100	1.5	1.5	0
-Sub329	RG_100yr	outfall1	0.0061	100	3.1	1.5	0
-Sub330	RG_100yr	outfall1	0.003	100	1.5	1.5	0
-Sub331	RG_100yr	outfall1	0.006	100	3	1.5	0
-Sub332	RG_100yr	outfall1	0.003	100	1.5	1.5	0
-Sub333	RG_100yr	outfall1	0.006	100	3	1.5	0
-Sub334	RG_100yr	outfall1	0.003	100	1.5	1.5	0
-Sub335	RG_100yr	outfall1	0.0029	100	7.3	1.5	0
-Sub336	RG_100yr	Sub357	0.0457	100	22.9	1.5	0
-Sub337	RG_100yr	Sub357	0.0018	100	4.5	1.5	0
-Sub338	RG_100yr	outfall1	0.0012	100	3	1.5	0
-Sub339	RG_100yr	outfall1	0.0045	100	11.3	1.5	0
-Sub340	RG_100yr	Sub357	0.0103	0	3.4	2	0
-Sub341	RG_100yr	Sub357	0.0089	0	3	2	0
-Sub342	RG_100yr	Sub357	0.0174	0	5.8	2	0
-Sub343	RG_100yr	Sub357	0.0077	0	2.6	2	0
-Sub344	RG_100yr	Sub357	0.027	80	18	2	0
-Sub345	RG_100yr	Sub357	0.0175	80	11.7	2	0
-Sub346	RG_100yr	Sub357	0.0092	80	6.1	2	0
-Sub347	RG_100yr	outfall1	0.0096	80	6.4	2	0
-Sub348	RG_100yr	outfall1	0.02	80	13.3	2	0
-Sub349	RG_100yr	outfall1	0.1271	0	42.4	2	0
-Sub350	RG_100yr	outfall1	0.1939	0	64.6	2	0
-Sub351	RG_100yr	outfall1	0.0018	100	4.5	1.5	0
-Sub352	RG_100yr	outfall1	0.004	100	10	1.5	0
-Sub353	RG_100yr	Sub356	0.0465	80	31	2	0
-Sub354	RG_100yr	Sub356	0.0124	80	8.3	2	0
-Sub355	RG_100yr	Sub356	0.0054	0	1.8	2	0
-Sub356	RG_100yr	Sub356	0.335	0	111.7	2	0
-Sub357	RG_100yr	Sub478	0.1804	0	60.1	2	0
-Sub358	RG_100yr	Sub356	0.0519	0	17.3	2	0
-Sub359	RG_100yr	Sub356	0.0199	0	6.6	2	0
-Sub360	RG_100yr	Sub356	0.0093	0	3.1	2	0
-Sub361	RG_100yr	Sub356	0.0531	0	17.7	2	0
-Sub362	RG_100yr	outfall1	0.0035	100	8.8	1.5	0
-Sub363	RG_100yr	outfall1	0.0032	100	8	1.5	0
-Sub364	RG_100yr	outfall1	0.0005	100	1.3	1.5	0
-Sub365	RG_100yr	outfall1	0.0028	100	7	1.5	0
-Sub366	RG_100yr	outfall1	0.0032	100	8	1.5	0
-Sub367	RG_100yr	outfall1	0.0018	100	4.5	1.5	0
-Sub368	RG_100yr	outfall1	0.001	100	2.5	1.5	0
-Sub369	RG_100yr	outfall1	0.0005	100	1.3	1.5	0
-Sub370	RG_100yr	outfall1	0.0044	100	11	1.5	0
-Sub371	RG_100yr	outfall1	0.0044	100	11	1.5	0
-Sub372	RG_100yr	outfall1	0.001	100	2.5	1.5	0
-Sub373	RG_100yr	outfall1	0.0034	100	8.5	1.5	0
-Sub374	RG_100yr	outfall1	0.0015	100	3.8	1.5	0
-Sub375	RG_100yr	outfall1	0.002	100	5	1.5	0
-Sub376	RG_100yr	outfall1	0.0018	100	4.5	1.5	0
-Sub377	RG_100yr	outfall1	0.0039	100	9.8	1.5	0
-Sub378	RG_100yr	outfall1	0.0014	100	3.5	1.5	0
-Sub379	RG_100yr	outfall1	0.0037	100	9.3	1.5	0
-Sub380	RG_100yr	outfall1	0.0013	100	3.3	1.5	0
-Sub381	RG_100yr	outfall1	0.0018	100	4.5	1.5	0
-Sub382	RG_100yr	outfall1	0.0039	100	9.8	1.5	0
-Sub383	RG_100yr	outfall1	0.0014	100	3.5	1.5	0
-Sub384	RG_100yr	outfall1	0.0029	100	7.3	1.5	0
-Sub385	RG_100yr	outfall1	0.0005	100	1.3	1.5	0
-Sub386	RG_100yr	outfall1	0.001	100	2.5	1.5	0
-Sub387	RG_100yr	outfall1	0.2663	0	88.8	2	0
-Sub388	RG_100yr	outfall1	0.024	0	8	2	0
-Sub389	RG_100yr	Sub476	0.474	0	158	2	0
-Sub390	RG_100yr	Sub389	0.1788	0	59.6	2	0
-Sub391	RG_100yr	Sub389	0.0721	80	48.1	2	0
-Sub392	RG_100yr	Sub399	0.0186	0	6.2	2	0
-Sub393	RG_100yr	Sub399	0.0093	0	3.1	2	0
-Sub394	RG_100yr	Sub399	0.0194	0	6.5	2	0
-Sub395	RG_100yr	Sub399	0.0524	0	17.5	2	0
-Sub396	RG_100yr	Sub399	0.0093	0	3.1	2	0
-Sub397	RG_100yr	Sub399	0.0252	0	8.4	2	0
-Sub398	RG_100yr	outfall1	0.1185	100	59.3	1.5	0
-Sub399	RG_100yr	Sub476	0.5362	0	178.7	2	0
-Sub400	RG_100yr	Sub399	0.0721	80	48.1	2	0
-Sub401	RG_100yr	Sub418	0.0631	80	42.1	2	0
-Sub402	RG_100yr	Sub418	0.0515	0	17.2	2	0
-Sub403	RG_100yr	Sub418	0.0093	0	3.1	2	0
-Sub404	RG_100yr	Sub418	0.0177	0	5.9	2	0
-Sub405	RG_100yr	Sub418	0.0093	0	3.1	2	0
-Sub406	RG_100yr	Sub418	0.0521	0	17.4	2	0
-Sub407	RG_100yr	Sub418	0.0188	0	6.3	2	0
-Sub408	RG_100yr	outfall1	0.024	0	8	2	0
-Sub409	RG_100yr	outfall1	0.024	0	8	2	0
-Sub410	RG_100yr	outfall1	0.0243	0	8.1	2	0
-Sub411	RG_100yr	Sub399	0.023	0	7.7	2	0
-Sub412	RG_100yr	outfall1	0.02	80	13.3	2	0
-Sub413	RG_100yr	outfall1	0.02	80	13.3	2	0
-Sub414	RG_100yr	outfall1	0.1682	0	56.1	2	0
-Sub415	RG_100yr	outfall1	0.025	80	16.7	2	0
-Sub416	RG_100yr	outfall1	0.015	80	10	2	0
-Sub417	RG_100yr	outfall1	0.5876	100	1958.7	2.5	0
-Sub418	RG_100yr	Sub476	0.4973	0	165.8	2	0
-Sub419	RG_100yr	outfall1	0.0102	80	6.8	2	0
-Sub420	RG_100yr	outfall1	0.0178	80	11.9	2	0
-Sub421	RG_100yr	outfall1	0.0996	80	66.4	2	0
-Sub422	RG_100yr	outfall1	0.0665	80	44.3	2	0
-Sub423	RG_100yr	outfall1	0.0501	0	16.7	2	0
-Sub424	RG_100yr	outfall1	0.0363	80	24.2	2	0
-Sub425	RG_100yr	outfall1	0.002	100	5	1.5	0
-Sub426	RG_100yr	outfall1	0.001	100	2.5	1.5	0
-Sub427	RG_100yr	outfall1	0.0013	100	3.3	1.5	0
-Sub428	RG_100yr	outfall1	0.0005	100	1.3	1.5	0
-Sub429	RG_100yr	outfall1	0.001	100	2.5	1.5	0
-Sub430	RG_100yr	outfall1	0.0486	0	16.2	2	0
-Sub431	RG_100yr	outfall1	0.036	100	120	2.5	0
-Sub432	RG_100yr	outfall1	0.0034	0	1.1	2	0
-Sub433	RG_100yr	outfall1	0.0105	0	3.5	2	0
-Sub434	RG_100yr	outfall1	0.0105	0	3.5	2	0
-Sub435	RG_100yr	outfall1	0.0072	0	2.4	2	0
-Sub436	RG_100yr	outfall1	0.0033	0	1.1	2	0
-Sub437	RG_100yr	outfall1	0.0105	0	3.5	2	0
-Sub438	RG_100yr	outfall1	0.0105	0	3.5	2	0
-Sub439	RG_100yr	outfall1	0.0072	0	2.4	2	0
-Sub440	RG_100yr	outfall1	0.0072	0	2.4	2	0
-Sub441	RG_100yr	outfall1	0.0105	0	3.5	2	0
-Sub442	RG_100yr	outfall1	0.0105	0	3.5	2	0
-Sub443	RG_100yr	outfall1	0.0034	0	1.1	2	0
-Sub444	RG_100yr	outfall1	0.0069	0	2.3	2	0
-Sub445	RG_100yr	outfall1	0.0081	0	2.7	2	0
-Sub446	RG_100yr	outfall1	0.0081	0	2.7	2	0
-Sub447	RG_100yr	outfall1	0.0102	0	3.4	2	0
-Sub448	RG_100yr	outfall1	0.0034	0	1.1	2	0
-Sub449	RG_100yr	outfall1	0.2227	100	556.8	1.5	0
-Sub450	RG_100yr	outfall1	0.0659	100	164.8	1.5	0
-Sub451	RG_100yr	outfall1	0.2385	100	795	2.5	0
-Sub452	RG_100yr	outfall1	0.0546	80	36.4	2	0
-Sub453	RG_100yr	outfall1	0.048	100	24	2	0
-Sub454	RG_100yr	outfall1	0.0469	100	23.5	2	0
-Sub455	RG_100yr	outfall1	0.2958	100	98.6	2	0
-Sub456	RG_100yr	outfall1	0.1527	100	76.4	2	0
-Sub457	RG_100yr	outfall1	0.8826	100	294.2	2	0
-Sub458	RG_100yr	outfall1	1.5132	100	504.4	2	0
-Sub459	RG_100yr	outfall1	0.4438	100	147.9	2	0
-Sub460	RG_100yr	outfall1	0.479	100	159.7	2	0
-Sub461	RG_100yr	outfall1	0.5041	80	336.1	2	0
-Sub462	RG_100yr	outfall1	0.2045	100	68.2	2	0
-Sub463	RG_100yr	outfall1	0.2642	100	88.1	2	0
-Sub464	RG_100yr	outfall1	0.3531	100	117.7	2	0
-Sub465	RG_100yr	outfall1	0.3281	100	109.4	2	0
-Sub466	RG_100yr	outfall1	0.0896	100	29.9	2	0
-Sub467	RG_100yr	outfall1	0.0879	100	29.3	2	0
-Sub468	RG_100yr	outfall1	0.2064	100	68.8	2	0
-Sub469	RG_100yr	outfall1	0.0058	100	14.5	1.5	0
-Sub470	RG_100yr	outfall1	0.0081	100	20.3	1.5	0
-Sub471	RG_100yr	outfall1	0.0041	100	10.3	1.5	0
-Sub472	RG_100yr	outfall1	0.006	100	15	1.5	0
-Sub473	RG_100yr	outfall1	0.0031	100	7.8	1.5	0
-Sub474	RG_100yr	outfall1	0.034	100	11.3	2	0
-Sub475	RG_100yr	outfall1	0.0341	100	11.4	2	0
-Sub476	RG_100yr	outfall1	1.1873	0	395.8	2	0
-Sub477	RG_100yr	outfall1	0.2639	0	88	2	0
-Sub478	RG_100yr	outfall1	0.4186	0	139.5	2	0
-Sub479	RG_100yr	outfall1	0.2777	0	92.6	2	0
-Sub480	RG_100yr	outfall1	0.3263	100	815.8	1.5	0
-Sub481	RG_100yr	outfall1	0.182	100	455	1.5	0
-Sub482	RG_100yr	outfall1	0.1281	100	320.3	1.5	0
-Sub483	RG_100yr	outfall1	0.1295	100	323.8	1.5	0
-Sub484	RG_100yr	outfall1	0.1339	100	334.8	1.5	0
-Sub485	RG_100yr	outfall1	0.1046	100	261.5	1.5	0
-Sub486	RG_100yr	outfall1	0.2174	100	724.7	2.5	0
-Sub487	RG_100yr	outfall1	0.5406	100	1802	2.5	0
-Sub488	RG_100yr	outfall1	0.3604	100	1201.3	2.5	0
-Sub489	RG_100yr	outfall1	0.3657	100	1219	2.5	0
-Sub490	RG_100yr	outfall1	0.3577	100	1192.3	2.5	0
-Sub491	RG_100yr	outfall1	0.2992	100	997.3	2.5	0
-Sub492	RG_100yr	outfall1	0.2114	100	704.7	2.5	0
-Sub493	RG_100yr	outfall1	0.2511	100	837	2.5	0
-Sub494	RG_100yr	outfall1	0.29	100	966.7	2.5	0
-Sub495	RG_100yr	outfall1	0.3658	100	1219.3	2.5	0
-Sub496	RG_100yr	outfall1	0.3518	100	1172.7	2.5	0
-Sub497	RG_100yr	outfall1	0.2638	100	879.3	2.5	0
-Sub498	RG_100yr	outfall1	0.2335	100	778.3	2.5	0
-Sub499	RG_100yr	outfall1	0.3737	100	1245.7	2.5	0
-Sub500	RG_100yr	outfall1	0.3218	100	1072.7	2.5	0
-Sub501	RG_100yr	outfall1	0.3503	100	1167.7	2.5	0
-Sub502	RG_100yr	outfall1	0	100	0	1.5	0
-Sub503	RG_100yr	outfall1	0.1867	100	466.8	1.5	0
+Sub000	RG_100yr	outfall1	0.0228	100	11.4	2	0	
+Sub001	RG_100yr	outfall1	0.1984	100	99.2	2	0	
+Sub002	RG_100yr	outfall1	0.0469	100	23.5	2	0	
+Sub003	RG_100yr	outfall1	0.0469	100	23.5	2	0	
+Sub004	RG_100yr	outfall1	0.0576	100	19.2	2	0	
+Sub005	RG_100yr	outfall1	0.0449	100	15	2	0	
+Sub006	RG_100yr	outfall1	0.0449	100	15	2	0	
+Sub007	RG_100yr	outfall1	0.0576	100	19.2	2	0	
+Sub008	RG_100yr	outfall1	0.0576	100	19.2	2	0	
+Sub009	RG_100yr	outfall1	0.0615	100	20.5	2	0	
+Sub010	RG_100yr	outfall1	0.0615	100	20.5	2	0	
+Sub011	RG_100yr	outfall1	0.0615	100	20.5	2	0	
+Sub012	RG_100yr	outfall1	0.0576	100	19.2	2	0	
+Sub013	RG_100yr	outfall1	0.0615	100	20.5	2	0	
+Sub014	RG_100yr	outfall1	0.0615	100	20.5	2	0	
+Sub015	RG_100yr	outfall1	0.0615	100	20.5	2	0	
+Sub016	RG_100yr	outfall1	0.0576	100	19.2	2	0	
+Sub017	RG_100yr	outfall1	0.0615	100	20.5	2	0	
+Sub018	RG_100yr	outfall1	0.0615	100	20.5	2	0	
+Sub019	RG_100yr	outfall1	0.0615	100	20.5	2	0	
+Sub020	RG_100yr	outfall1	0.0576	100	19.2	2	0	
+Sub021	RG_100yr	outfall1	0.2555	100	85.2	2	0	
+Sub022	RG_100yr	outfall1	0.0342	100	11.4	2	0	
+Sub023	RG_100yr	Sub357	0.063	100	21	2	0	
+Sub024	RG_100yr	Sub357	0.0548	100	18.3	2	0	
+Sub025	RG_100yr	Sub357	0.0486	100	16.2	2	0	
+Sub026	RG_100yr	Sub357	0.0635	100	21.2	2	0	
+Sub027	RG_100yr	Sub357	0.0988	100	49.4	2	0	
+Sub028	RG_100yr	Sub356	0.0723	100	24.1	2	0	
+Sub029	RG_100yr	Sub356	0.074	100	24.7	2	0	
+Sub030	RG_100yr	Sub356	0.0508	100	16.9	2	0	
+Sub031	RG_100yr	Sub356	0.0457	100	15.2	2	0	
+Sub032	RG_100yr	Sub356	0.049	100	16.3	2	0	
+Sub033	RG_100yr	Sub356	0.04	100	13.3	2	0	
+Sub034	RG_100yr	Sub356	0.0911	100	45.6	2	0	
+Sub035	RG_100yr	Sub418	0.0551	100	18.4	2	0	
+Sub036	RG_100yr	Sub418	0.0737	100	24.6	2	0	
+Sub037	RG_100yr	Sub418	0.0508	100	16.9	2	0	
+Sub038	RG_100yr	Sub418	0.064	100	21.3	2	0	
+Sub039	RG_100yr	Sub418	0.062	100	20.7	2	0	
+Sub040	RG_100yr	Sub418	0.04	100	13.3	2	0	
+Sub041	RG_100yr	Sub418	0.0882	100	29.4	2	0	
+Sub042	RG_100yr	Sub418	0.0468	100	23.4	2	0	
+Sub043	RG_100yr	Sub399	0.0642	100	21.4	2	0	
+Sub044	RG_100yr	Sub399	0.0741	100	24.7	2	0	
+Sub045	RG_100yr	Sub399	0.0508	100	16.9	2	0	
+Sub046	RG_100yr	Sub399	0.0541	100	27.1	2	0	
+Sub047	RG_100yr	Sub399	0.058	100	19.3	2	0	
+Sub048	RG_100yr	Sub399	0.0557	100	18.6	2	0	
+Sub049	RG_100yr	Sub399	0.0975	100	32.5	2	0	
+Sub050	RG_100yr	Sub399	0.04	100	13.3	2	0	
+Sub051	RG_100yr	Sub399	0.058	100	19.3	2	0	
+Sub052	RG_100yr	Sub389	0.0566	100	18.9	2	0	
+Sub053	RG_100yr	Sub389	0.1026	100	34.2	2	0	
+Sub054	RG_100yr	Sub389	0.0837	100	27.9	2	0	
+Sub055	RG_100yr	Sub389	0.0725	100	24.2	2	0	
+Sub056	RG_100yr	Sub389	0.04	100	13.3	2	0	
+Sub057	RG_100yr	Sub389	0.1221	100	61.1	2	0	
+Sub058	RG_100yr	Sub389	0.0572	100	19.1	2	0	
+Sub059	RG_100yr	Sub389	0.058	100	19.3	2	0	
+Sub060	RG_100yr	outfall1	0.121	100	60.5	2	0	
+Sub061	RG_100yr	outfall1	0.0846	100	28.2	2	0	
+Sub062	RG_100yr	outfall1	0.1201	100	40	2	0	
+Sub063	RG_100yr	outfall1	0.0929	100	31	2	0	
+Sub064	RG_100yr	outfall1	0.0929	100	31	2	0	
+Sub065	RG_100yr	outfall1	0.0929	100	31	2	0	
+Sub066	RG_100yr	outfall1	0.9272	100	309.1	2	0	
+Sub067	RG_100yr	outfall1	0.1157	100	38.6	2	0	
+Sub068	RG_100yr	outfall1	0.6725	100	224.2	2	0	
+Sub069	RG_100yr	outfall1	0.1199	100	40	2	0	
+Sub070	RG_100yr	outfall1	0.4341	100	144.7	2	0	
+Sub071	RG_100yr	outfall1	0.7996	100	266.5	2	0	
+Sub072	RG_100yr	outfall1	0.7948	80	529.9	2	0	
+Sub073	RG_100yr	outfall1	0.0877	100	29.2	2	0	
+Sub074	RG_100yr	outfall1	0.2581	0	86	2	0	
+Sub075	RG_100yr	outfall1	0.0024	100	6	1.5	0	
+Sub076	RG_100yr	outfall1	0.0476	100	119	1.5	0	
+Sub077	RG_100yr	outfall1	0.0411	100	102.8	1.5	0	
+Sub078	RG_100yr	outfall1	0.0009	100	2.3	1.5	0	
+Sub079	RG_100yr	outfall1	0.0556	0	18.5	2	0	
+Sub080	RG_100yr	outfall1	0.018	100	45	1.5	0	
+Sub081	RG_100yr	outfall1	0.1852	100	463	1.5	0	
+Sub082	RG_100yr	outfall1	0.0283	100	70.8	1.5	0	
+Sub083	RG_100yr	outfall1	0.0038	100	9.5	1.5	0	
+Sub084	RG_100yr	outfall1	0.0022	100	5.5	1.5	0	
+Sub085	RG_100yr	outfall1	0.0022	100	5.5	1.5	0	
+Sub086	RG_100yr	outfall1	0.0022	100	5.5	1.5	0	
+Sub087	RG_100yr	outfall1	0.0022	100	5.5	1.5	0	
+Sub088	RG_100yr	outfall1	0.0027	100	6.8	1.5	0	
+Sub089	RG_100yr	outfall1	0.016	0	5.3	2	0	
+Sub090	RG_100yr	outfall1	0.018	0	6	2	0	
+Sub091	RG_100yr	outfall1	0.018	0	6	2	0	
+Sub092	RG_100yr	outfall1	0.0309	0	10.3	2	0	
+Sub093	RG_100yr	outfall1	0.1852	100	463	1.5	0	
+Sub094	RG_100yr	outfall1	0.1826	100	456.5	1.5	0	
+Sub095	RG_100yr	outfall1	0.0141	100	35.3	1.5	0	
+Sub096	RG_100yr	outfall1	0.0167	100	41.8	1.5	0	
+Sub097	RG_100yr	outfall1	0.0162	100	40.5	1.5	0	
+Sub098	RG_100yr	outfall1	0.0523	100	130.8	1.5	0	
+Sub099	RG_100yr	outfall1	0.152	100	380	1.5	0	
+Sub100	RG_100yr	outfall1	0.0029	100	7.3	1.5	0	
+Sub101	RG_100yr	outfall1	0.008	100	20	1.5	0	
+Sub102	RG_100yr	outfall1	0.0084	100	21	1.5	0	
+Sub103	RG_100yr	outfall1	0.0154	100	38.5	1.5	0	
+Sub104	RG_100yr	outfall1	0.4339	0	144.6	2	0	
+Sub105	RG_100yr	outfall1	0.884	0	294.7	2	0	
+Sub106	RG_100yr	outfall1	0.039	100	19.5	1.5	0	
+Sub107	RG_100yr	outfall1	0.0289	100	14.5	1.5	0	
+Sub108	RG_100yr	outfall1	0.0375	100	18.8	1.5	0	
+Sub109	RG_100yr	outfall1	0.0593	0	19.8	2	0	
+Sub110	RG_100yr	outfall1	0.0169	100	42.3	1.5	0	
+Sub111	RG_100yr	outfall1	0.0226	100	56.5	1.5	0	
+Sub112	RG_100yr	outfall1	0.0238	100	59.5	1.5	0	
+Sub113	RG_100yr	outfall1	0.1807	80	120.5	2	0	
+Sub114	RG_100yr	outfall1	0.01	80	6.7	2	0	
+Sub115	RG_100yr	outfall1	0.077	100	192.5	1.5	0	
+Sub116	RG_100yr	outfall1	0.0192	100	48	1.5	0	
+Sub117	RG_100yr	outfall1	0.0192	100	48	1.5	0	
+Sub118	RG_100yr	outfall1	0.0192	100	48	1.5	0	
+Sub119	RG_100yr	outfall1	0.0312	100	78	1.5	0	
+Sub120	RG_100yr	outfall1	0.0029	100	7.3	1.5	0	
+Sub121	RG_100yr	outfall1	0.0208	80	13.9	2	0	
+Sub122	RG_100yr	outfall1	0.0174	80	11.6	2	0	
+Sub123	RG_100yr	outfall1	0.0173	80	11.5	2	0	
+Sub124	RG_100yr	outfall1	0.0223	80	14.9	2	0	
+Sub125	RG_100yr	outfall1	0.0544	80	36.3	2	0	
+Sub126	RG_100yr	outfall1	0.0401	80	26.7	2	0	
+Sub127	RG_100yr	outfall1	0.0289	80	19.3	2	0	
+Sub128	RG_100yr	outfall1	0.0015	100	3.8	1.5	0	
+Sub129	RG_100yr	outfall1	0.0028	100	7	1.5	0	
+Sub130	RG_100yr	outfall1	0.005	100	12.5	1.5	0	
+Sub131	RG_100yr	outfall1	0.0034	100	8.5	1.5	0	
+Sub132	RG_100yr	outfall1	0.0133	100	33.3	1.5	0	
+Sub133	RG_100yr	outfall1	0.0997	100	49.9	1.5	0	
+Sub134	RG_100yr	outfall1	0.0138	0	4.6	2	0	
+Sub135	RG_100yr	outfall1	0.0502	0	16.7	2	0	
+Sub136	RG_100yr	outfall1	0.0683	0	22.8	2	0	
+Sub137	RG_100yr	outfall1	0.1004	0	33.5	2	0	
+Sub138	RG_100yr	outfall1	0.1155	0	38.5	2	0	
+Sub139	RG_100yr	outfall1	0.0721	80	48.1	2	0	
+Sub140	RG_100yr	outfall1	0.0364	80	24.3	2	0	
+Sub141	RG_100yr	outfall1	0.1537	100	384.3	1.5	0	
+Sub142	RG_100yr	outfall1	0.1423	100	355.8	1.5	0	
+Sub143	RG_100yr	outfall1	0.1532	100	383	1.5	0	
+Sub144	RG_100yr	outfall1	0.2325	100	581.3	1.5	0	
+Sub145	RG_100yr	outfall1	0.0026	100	6.5	1.5	0	
+Sub146	RG_100yr	outfall1	0.1875	0	62.5	2	0	
+Sub147	RG_100yr	outfall1	0.0985	100	246.3	1.5	0	
+Sub148	RG_100yr	outfall1	0.0573	100	143.3	1.5	0	
+Sub149	RG_100yr	outfall1	0.0877	100	219.3	1.5	0	
+Sub150	RG_100yr	outfall1	0.0258	100	64.5	1.5	0	
+Sub151	RG_100yr	outfall1	0.0213	100	53.3	1.5	0	
+Sub152	RG_100yr	outfall1	0.0041	100	10.3	1.5	0	
+Sub153	RG_100yr	outfall1	0.0088	100	22	1.5	0	
+Sub154	RG_100yr	outfall1	0.2643	0	88.1	2	0	
+Sub155	RG_100yr	outfall1	0.0264	100	66	1.5	0	
+Sub156	RG_100yr	outfall1	0.0379	100	94.8	1.5	0	
+Sub157	RG_100yr	outfall1	0.0077	100	19.3	1.5	0	
+Sub158	RG_100yr	outfall1	0.0091	100	22.8	1.5	0	
+Sub159	RG_100yr	outfall1	0.0022	100	5.5	1.5	0	
+Sub160	RG_100yr	outfall1	0.0067	100	16.8	1.5	0	
+Sub161	RG_100yr	outfall1	0.0423	100	105.8	1.5	0	
+Sub162	RG_100yr	outfall1	0.3079	0	102.6	2	0	
+Sub163	RG_100yr	outfall1	0.028	80	18.7	2	0	
+Sub164	RG_100yr	outfall1	0.0898	0	29.9	2	0	
+Sub165	RG_100yr	outfall1	0.0274	100	68.5	1.5	0	
+Sub166	RG_100yr	outfall1	0.0633	100	158.3	1.5	0	
+Sub167	RG_100yr	outfall1	0.0183	100	61	2.5	0	
+Sub168	RG_100yr	outfall1	0.0127	100	31.8	1.5	0	
+Sub169	RG_100yr	outfall1	0.0162	100	40.5	1.5	0	
+Sub170	RG_100yr	outfall1	0.0462	100	23.1	1.5	0	
+Sub171	RG_100yr	outfall1	0.0227	100	11.4	1.5	0	
+Sub172	RG_100yr	outfall1	0.0208	100	10.4	1.5	0	
+Sub173	RG_100yr	outfall1	0.2006	80	133.7	2	0	
+Sub174	RG_100yr	outfall1	1.0474	100	523.7	1.5	0	
+Sub175	RG_100yr	outfall1	0.0045	100	11.3	1.5	0	
+Sub176	RG_100yr	outfall1	0.0045	100	11.3	1.5	0	
+Sub177	RG_100yr	outfall1	0.0384	100	19.2	1.5	0	
+Sub178	RG_100yr	outfall1	0.0121	100	6.1	1.5	0	
+Sub179	RG_100yr	outfall1	0.065	80	43.3	2	0	
+Sub180	RG_100yr	outfall1	0.063	100	157.5	1.5	0	
+Sub181	RG_100yr	outfall1	0.2363	0	78.8	2	0	
+Sub182	RG_100yr	outfall1	0.1409	0	47	2	0	
+Sub183	RG_100yr	outfall1	0.0136	0	4.5	2	0	
+Sub184	RG_100yr	outfall1	0.1227	0	40.9	2	0	
+Sub185	RG_100yr	outfall1	0.047	0	15.7	2	0	
+Sub186	RG_100yr	outfall1	0.2239	0	74.6	2	0	
+Sub187	RG_100yr	outfall1	0.1501	0	50	2	0	
+Sub188	RG_100yr	outfall1	0.1046	0	34.9	2	0	
+Sub189	RG_100yr	outfall1	0.086	0	28.7	2	0	
+Sub190	RG_100yr	outfall1	0.1816	0	60.5	2	0	
+Sub191	RG_100yr	outfall1	0.013	0	4.3	2	0	
+Sub192	RG_100yr	outfall1	0.0027	100	6.8	1.5	0	
+Sub193	RG_100yr	outfall1	0.0048	0	1.6	2	0	
+Sub194	RG_100yr	outfall1	0.0436	0	14.5	2	0	
+Sub195	RG_100yr	outfall1	0.0117	0	3.9	2	0	
+Sub196	RG_100yr	outfall1	0.1529	0	51	2	0	
+Sub197	RG_100yr	outfall1	0.0094	100	31.3	2.5	0	
+Sub198	RG_100yr	outfall1	0.0307	80	20.5	2	0	
+Sub199	RG_100yr	outfall1	0.0855	100	213.8	1.5	0	
+Sub200	RG_100yr	outfall1	0.1056	100	264	1.5	0	
+Sub201	RG_100yr	outfall1	0.2334	0	77.8	2	0	
+Sub202	RG_100yr	outfall1	0.1721	0	57.4	2	0	
+Sub203	RG_100yr	outfall1	0.05	0	16.7	2	0	
+Sub204	RG_100yr	outfall1	0.044	0	14.7	2	0	
+Sub205	RG_100yr	outfall1	0.044	0	14.7	2	0	
+Sub206	RG_100yr	outfall1	0.05	0	16.7	2	0	
+Sub207	RG_100yr	outfall1	0.1697	0	56.6	2	0	
+Sub208	RG_100yr	outfall1	0.0802	100	40.1	1.5	0	
+Sub209	RG_100yr	outfall1	0.0016	100	4	1.5	0	
+Sub210	RG_100yr	outfall1	0.0168	0	5.6	2	0	
+Sub211	RG_100yr	outfall1	0.1786	100	89.3	1.5	0	
+Sub212	RG_100yr	outfall1	0.013	100	32.5	1.5	0	
+Sub213	RG_100yr	outfall1	0.0016	100	4	1.5	0	
+Sub214	RG_100yr	outfall1	0.0389	100	97.3	1.5	0	
+Sub215	RG_100yr	outfall1	0.007	100	17.5	1.5	0	
+Sub216	RG_100yr	outfall1	0.0348	0	11.6	2	0	
+Sub217	RG_100yr	outfall1	0.0267	100	66.8	1.5	0	
+Sub218	RG_100yr	outfall1	0.0003	100	0.8	1.5	0	
+Sub219	RG_100yr	outfall1	0.0045	100	11.3	1.5	0	
+Sub220	RG_100yr	outfall1	0.0007	0	0.2	2	0	
+Sub221	RG_100yr	outfall1	0.0031	100	1.6	1.5	0	
+Sub222	RG_100yr	outfall1	0.0001	0	0	2	0	
+Sub223	RG_100yr	outfall1	0.0656	0	21.9	2	0	
+Sub224	RG_100yr	outfall1	0.036	80	24	2	0	
+Sub225	RG_100yr	outfall1	0.0705	80	47	2	0	
+Sub226	RG_100yr	outfall1	0.0609	80	40.6	2	0	
+Sub227	RG_100yr	outfall1	0.037	80	24.7	2	0	
+Sub228	RG_100yr	outfall1	0.0021	100	5.3	1.5	0	
+Sub229	RG_100yr	outfall1	0.0696	100	174	1.5	0	
+Sub230	RG_100yr	outfall1	0.0024	100	6	1.5	0	
+Sub231	RG_100yr	outfall1	0.0199	0	6.6	2	0	
+Sub232	RG_100yr	outfall1	0.0811	0	27	2	0	
+Sub233	RG_100yr	outfall1	0.04	0	13.3	2	0	
+Sub234	RG_100yr	outfall1	0.0023	100	5.8	1.5	0	
+Sub235	RG_100yr	outfall1	0.0037	0	1.2	2	0	
+Sub236	RG_100yr	outfall1	0.0023	100	5.8	1.5	0	
+Sub237	RG_100yr	outfall1	0.0767	100	191.8	1.5	0	
+Sub238	RG_100yr	outfall1	0.0729	80	48.6	2	0	
+Sub239	RG_100yr	outfall1	0.1338	100	66.9	1.5	0	
+Sub240	RG_100yr	outfall1	0.0786	100	39.3	1.5	0	
+Sub241	RG_100yr	outfall1	0.0106	100	26.5	1.5	0	
+Sub242	RG_100yr	outfall1	0.0999	100	249.8	1.5	0	
+Sub243	RG_100yr	outfall1	0.8604	80	573.6	2	0	
+Sub244	RG_100yr	outfall1	0.0152	100	38	1.5	0	
+Sub245	RG_100yr	outfall1	0.0867	0	28.9	2	0	
+Sub246	RG_100yr	outfall1	0.1973	0	65.8	2	0	
+Sub247	RG_100yr	outfall1	0.1797	0	59.9	2	0	
+Sub248	RG_100yr	outfall1	0.1457	100	72.9	1.5	0	
+Sub249	RG_100yr	outfall1	0.2233	0	74.4	2	0	
+Sub250	RG_100yr	outfall1	0.0801	0	26.7	2	0	
+Sub251	RG_100yr	outfall1	0.0211	100	52.8	1.5	0	
+Sub252	RG_100yr	outfall1	0.1952	80	130.1	2	0	
+Sub253	RG_100yr	outfall1	0.02	80	13.3	2	0	
+Sub254	RG_100yr	outfall1	0.3131	0	104.4	2	0	
+Sub255	RG_100yr	outfall1	0.0084	100	21	1.5	0	
+Sub256	RG_100yr	outfall1	0.001	0	0.3	2	0	
+Sub257	RG_100yr	outfall1	0.0343	0	11.4	2	0	
+Sub258	RG_100yr	outfall1	0.062	0	20.7	2	0	
+Sub259	RG_100yr	outfall1	0.02	100	50	1.5	0	
+Sub260	RG_100yr	outfall1	0.004	100	10	1.5	0	
+Sub261	RG_100yr	outfall1	0.0605	100	151.3	1.5	0	
+Sub262	RG_100yr	outfall1	0.7569	0	252.3	2	0	
+Sub263	RG_100yr	outfall1	0.0019	100	4.8	1.5	0	
+Sub264	RG_100yr	outfall1	0.2669	80	177.9	2	0	
+Sub265	RG_100yr	outfall1	0.12	0	40	2	0	
+Sub266	RG_100yr	outfall1	0.03	80	20	2	0	
+Sub267	RG_100yr	outfall1	0.025	80	16.7	2	0	
+Sub268	RG_100yr	outfall1	0.03	80	20	2	0	
+Sub269	RG_100yr	outfall1	0.0288	0	9.6	2	0	
+Sub270	RG_100yr	outfall1	0.0045	0	1.5	2	0	
+Sub271	RG_100yr	outfall1	0.0285	0	9.5	2	0	
+Sub272	RG_100yr	outfall1	0.0914	0	30.5	2	0	
+Sub273	RG_100yr	outfall1	0.0534	0	17.8	2	0	
+Sub274	RG_100yr	outfall1	0.0742	0	24.7	2	0	
+Sub275	RG_100yr	outfall1	0.0033	0	1.1	2	0	
+Sub276	RG_100yr	outfall1	0.0223	80	14.9	2	0	
+Sub277	RG_100yr	outfall1	0.3525	100	1175	2.5	0	
+Sub278	RG_100yr	outfall1	0.127	100	423.3	2.5	0	
+Sub279	RG_100yr	outfall1	0.0257	100	85.7	2.5	0	
+Sub280	RG_100yr	outfall1	0.0037	0	1.2	2	0	
+Sub281	RG_100yr	outfall1	0.0547	80	36.5	2	0	
+Sub282	RG_100yr	outfall1	0.0326	100	108.7	2.5	0	
+Sub283	RG_100yr	outfall1	0.4006	100	1335.3	2.5	0	
+Sub284	RG_100yr	outfall1	0.0333	100	111	2.5	0	
+Sub285	RG_100yr	outfall1	0.398	100	1326.7	2.5	0	
+Sub286	RG_100yr	outfall1	0.3406	100	1135.3	2.5	0	
+Sub287	RG_100yr	outfall1	0.2192	100	730.7	2.5	0	
+Sub288	RG_100yr	outfall1	0.0229	80	15.3	2	0	
+Sub289	RG_100yr	outfall1	0.0013	100	3.3	1.5	0	
+Sub290	RG_100yr	outfall1	0.0216	80	14.4	2	0	
+Sub291	RG_100yr	outfall1	0.0046	100	2.3	1.5	0	
+Sub292	RG_100yr	outfall1	0.0364	100	91	1.5	0	
+Sub293	RG_100yr	outfall1	0.0095	100	23.8	1.5	0	
+Sub294	RG_100yr	outfall1	0.0201	100	50.3	1.5	0	
+Sub295	RG_100yr	outfall1	0.0065	100	16.3	1.5	0	
+Sub296	RG_100yr	outfall1	0.151	0	50.3	2	0	
+Sub297	RG_100yr	outfall1	0.0516	0	17.2	2	0	
+Sub298	RG_100yr	outfall1	0.003	100	7.5	1.5	0	
+Sub299	RG_100yr	outfall1	0.0016	100	4	1.5	0	
+Sub300	RG_100yr	outfall1	0.0009	100	2.3	1.5	0	
+Sub301	RG_100yr	outfall1	0.0025	100	6.3	1.5	0	
+Sub302	RG_100yr	outfall1	0.0233	100	11.7	1.5	0	
+Sub303	RG_100yr	outfall1	0.0279	100	69.8	1.5	0	
+Sub304	RG_100yr	outfall1	0.0385	100	19.3	1.5	0	
+Sub305	RG_100yr	outfall1	0.0154	100	7.7	1.5	0	
+Sub306	RG_100yr	outfall1	0.0028	100	7	1.5	0	
+Sub307	RG_100yr	outfall1	0.0016	100	4	1.5	0	
+Sub308	RG_100yr	outfall1	0.0009	0	0.3	2	0	
+Sub309	RG_100yr	outfall1	0.0191	100	9.6	1.5	0	
+Sub310	RG_100yr	outfall1	0.0016	100	4	1.5	0	
+Sub311	RG_100yr	outfall1	0.0009	0	0.3	2	0	
+Sub312	RG_100yr	outfall1	0.0148	100	7.4	1.5	0	
+Sub313	RG_100yr	outfall1	0.0035	100	8.8	1.5	0	
+Sub314	RG_100yr	outfall1	0.0009	0	0.3	2	0	
+Sub315	RG_100yr	outfall1	0.002	100	5	1.5	0	
+Sub316	RG_100yr	outfall1	0.0006	100	1.5	1.5	0	
+Sub317	RG_100yr	outfall1	0.0107	100	5.4	1.5	0	
+Sub318	RG_100yr	outfall1	0.0036	100	9	1.5	0	
+Sub319	RG_100yr	outfall1	0.0019	100	4.8	1.5	0	
+Sub320	RG_100yr	outfall1	0.0056	100	2.8	1.5	0	
+Sub321	RG_100yr	outfall1	0.0127	100	6.4	1.5	0	
+Sub322	RG_100yr	outfall1	0.0025	100	6.3	1.5	0	
+Sub323	RG_100yr	outfall1	0.0016	100	4	1.5	0	
+Sub324	RG_100yr	outfall1	0.0384	100	19.2	1.5	0	
+Sub325	RG_100yr	outfall1	0.0384	100	19.2	1.5	0	
+Sub326	RG_100yr	outfall1	0.0076	0	2.5	2	0	
+Sub327	RG_100yr	outfall1	0.003	100	1.5	1.5	0	
+Sub328	RG_100yr	outfall1	0.003	100	1.5	1.5	0	
+Sub329	RG_100yr	outfall1	0.0061	100	3.1	1.5	0	
+Sub330	RG_100yr	outfall1	0.003	100	1.5	1.5	0	
+Sub331	RG_100yr	outfall1	0.006	100	3	1.5	0	
+Sub332	RG_100yr	outfall1	0.003	100	1.5	1.5	0	
+Sub333	RG_100yr	outfall1	0.006	100	3	1.5	0	
+Sub334	RG_100yr	outfall1	0.003	100	1.5	1.5	0	
+Sub335	RG_100yr	outfall1	0.0029	100	7.3	1.5	0	
+Sub336	RG_100yr	Sub357	0.0457	100	22.9	1.5	0	
+Sub337	RG_100yr	Sub357	0.0018	100	4.5	1.5	0	
+Sub338	RG_100yr	outfall1	0.0012	100	3	1.5	0	
+Sub339	RG_100yr	outfall1	0.0045	100	11.3	1.5	0	
+Sub340	RG_100yr	Sub357	0.0103	0	3.4	2	0	
+Sub341	RG_100yr	Sub357	0.0089	0	3	2	0	
+Sub342	RG_100yr	Sub357	0.0174	0	5.8	2	0	
+Sub343	RG_100yr	Sub357	0.0077	0	2.6	2	0	
+Sub344	RG_100yr	Sub357	0.027	80	18	2	0	
+Sub345	RG_100yr	Sub357	0.0175	80	11.7	2	0	
+Sub346	RG_100yr	Sub357	0.0092	80	6.1	2	0	
+Sub347	RG_100yr	outfall1	0.0096	80	6.4	2	0	
+Sub348	RG_100yr	outfall1	0.02	80	13.3	2	0	
+Sub349	RG_100yr	outfall1	0.1271	0	42.4	2	0	
+Sub350	RG_100yr	outfall1	0.1939	0	64.6	2	0	
+Sub351	RG_100yr	outfall1	0.0018	100	4.5	1.5	0	
+Sub352	RG_100yr	outfall1	0.004	100	10	1.5	0	
+Sub353	RG_100yr	Sub356	0.0465	80	31	2	0	
+Sub354	RG_100yr	Sub356	0.0124	80	8.3	2	0	
+Sub355	RG_100yr	Sub356	0.0054	0	1.8	2	0	
+Sub356	RG_100yr	Sub356	0.335	0	111.7	2	0	
+Sub357	RG_100yr	Sub478	0.1804	0	60.1	2	0	
+Sub358	RG_100yr	Sub356	0.0519	0	17.3	2	0	
+Sub359	RG_100yr	Sub356	0.0199	0	6.6	2	0	
+Sub360	RG_100yr	Sub356	0.0093	0	3.1	2	0	
+Sub361	RG_100yr	Sub356	0.0531	0	17.7	2	0	
+Sub362	RG_100yr	outfall1	0.0035	100	8.8	1.5	0	
+Sub363	RG_100yr	outfall1	0.0032	100	8	1.5	0	
+Sub364	RG_100yr	outfall1	0.0005	100	1.3	1.5	0	
+Sub365	RG_100yr	outfall1	0.0028	100	7	1.5	0	
+Sub366	RG_100yr	outfall1	0.0032	100	8	1.5	0	
+Sub367	RG_100yr	outfall1	0.0018	100	4.5	1.5	0	
+Sub368	RG_100yr	outfall1	0.001	100	2.5	1.5	0	
+Sub369	RG_100yr	outfall1	0.0005	100	1.3	1.5	0	
+Sub370	RG_100yr	outfall1	0.0044	100	11	1.5	0	
+Sub371	RG_100yr	outfall1	0.0044	100	11	1.5	0	
+Sub372	RG_100yr	outfall1	0.001	100	2.5	1.5	0	
+Sub373	RG_100yr	outfall1	0.0034	100	8.5	1.5	0	
+Sub374	RG_100yr	outfall1	0.0015	100	3.8	1.5	0	
+Sub375	RG_100yr	outfall1	0.002	100	5	1.5	0	
+Sub376	RG_100yr	outfall1	0.0018	100	4.5	1.5	0	
+Sub377	RG_100yr	outfall1	0.0039	100	9.8	1.5	0	
+Sub378	RG_100yr	outfall1	0.0014	100	3.5	1.5	0	
+Sub379	RG_100yr	outfall1	0.0037	100	9.3	1.5	0	
+Sub380	RG_100yr	outfall1	0.0013	100	3.3	1.5	0	
+Sub381	RG_100yr	outfall1	0.0018	100	4.5	1.5	0	
+Sub382	RG_100yr	outfall1	0.0039	100	9.8	1.5	0	
+Sub383	RG_100yr	outfall1	0.0014	100	3.5	1.5	0	
+Sub384	RG_100yr	outfall1	0.0029	100	7.3	1.5	0	
+Sub385	RG_100yr	outfall1	0.0005	100	1.3	1.5	0	
+Sub386	RG_100yr	outfall1	0.001	100	2.5	1.5	0	
+Sub387	RG_100yr	outfall1	0.2663	0	88.8	2	0	
+Sub388	RG_100yr	outfall1	0.024	0	8	2	0	
+Sub389	RG_100yr	Sub476	0.474	0	158	2	0	
+Sub390	RG_100yr	Sub389	0.1788	0	59.6	2	0	
+Sub391	RG_100yr	Sub389	0.0721	80	48.1	2	0	
+Sub392	RG_100yr	Sub399	0.0186	0	6.2	2	0	
+Sub393	RG_100yr	Sub399	0.0093	0	3.1	2	0	
+Sub394	RG_100yr	Sub399	0.0194	0	6.5	2	0	
+Sub395	RG_100yr	Sub399	0.0524	0	17.5	2	0	
+Sub396	RG_100yr	Sub399	0.0093	0	3.1	2	0	
+Sub397	RG_100yr	Sub399	0.0252	0	8.4	2	0	
+Sub398	RG_100yr	outfall1	0.1185	100	59.3	1.5	0	
+Sub399	RG_100yr	Sub476	0.5362	0	178.7	2	0	
+Sub400	RG_100yr	Sub399	0.0721	80	48.1	2	0	
+Sub401	RG_100yr	Sub418	0.0631	80	42.1	2	0	
+Sub402	RG_100yr	Sub418	0.0515	0	17.2	2	0	
+Sub403	RG_100yr	Sub418	0.0093	0	3.1	2	0	
+Sub404	RG_100yr	Sub418	0.0177	0	5.9	2	0	
+Sub405	RG_100yr	Sub418	0.0093	0	3.1	2	0	
+Sub406	RG_100yr	Sub418	0.0521	0	17.4	2	0	
+Sub407	RG_100yr	Sub418	0.0188	0	6.3	2	0	
+Sub408	RG_100yr	outfall1	0.024	0	8	2	0	
+Sub409	RG_100yr	outfall1	0.024	0	8	2	0	
+Sub410	RG_100yr	outfall1	0.0243	0	8.1	2	0	
+Sub411	RG_100yr	Sub399	0.023	0	7.7	2	0	
+Sub412	RG_100yr	outfall1	0.02	80	13.3	2	0	
+Sub413	RG_100yr	outfall1	0.02	80	13.3	2	0	
+Sub414	RG_100yr	outfall1	0.1682	0	56.1	2	0	
+Sub415	RG_100yr	outfall1	0.025	80	16.7	2	0	
+Sub416	RG_100yr	outfall1	0.015	80	10	2	0	
+Sub417	RG_100yr	outfall1	0.5876	100	1958.7	2.5	0	
+Sub418	RG_100yr	Sub476	0.4973	0	165.8	2	0	
+Sub419	RG_100yr	outfall1	0.0102	80	6.8	2	0	
+Sub420	RG_100yr	outfall1	0.0178	80	11.9	2	0	
+Sub421	RG_100yr	outfall1	0.0996	80	66.4	2	0	
+Sub422	RG_100yr	outfall1	0.0665	80	44.3	2	0	
+Sub423	RG_100yr	outfall1	0.0501	0	16.7	2	0	
+Sub424	RG_100yr	outfall1	0.0363	80	24.2	2	0	
+Sub425	RG_100yr	outfall1	0.002	100	5	1.5	0	
+Sub426	RG_100yr	outfall1	0.001	100	2.5	1.5	0	
+Sub427	RG_100yr	outfall1	0.0013	100	3.3	1.5	0	
+Sub428	RG_100yr	outfall1	0.0005	100	1.3	1.5	0	
+Sub429	RG_100yr	outfall1	0.001	100	2.5	1.5	0	
+Sub430	RG_100yr	outfall1	0.0486	0	16.2	2	0	
+Sub431	RG_100yr	outfall1	0.036	100	120	2.5	0	
+Sub432	RG_100yr	outfall1	0.0034	0	1.1	2	0	
+Sub433	RG_100yr	outfall1	0.0105	0	3.5	2	0	
+Sub434	RG_100yr	outfall1	0.0105	0	3.5	2	0	
+Sub435	RG_100yr	outfall1	0.0072	0	2.4	2	0	
+Sub436	RG_100yr	outfall1	0.0033	0	1.1	2	0	
+Sub437	RG_100yr	outfall1	0.0105	0	3.5	2	0	
+Sub438	RG_100yr	outfall1	0.0105	0	3.5	2	0	
+Sub439	RG_100yr	outfall1	0.0072	0	2.4	2	0	
+Sub440	RG_100yr	outfall1	0.0072	0	2.4	2	0	
+Sub441	RG_100yr	outfall1	0.0105	0	3.5	2	0	
+Sub442	RG_100yr	outfall1	0.0105	0	3.5	2	0	
+Sub443	RG_100yr	outfall1	0.0034	0	1.1	2	0	
+Sub444	RG_100yr	outfall1	0.0069	0	2.3	2	0	
+Sub445	RG_100yr	outfall1	0.0081	0	2.7	2	0	
+Sub446	RG_100yr	outfall1	0.0081	0	2.7	2	0	
+Sub447	RG_100yr	outfall1	0.0102	0	3.4	2	0	
+Sub448	RG_100yr	outfall1	0.0034	0	1.1	2	0	
+Sub449	RG_100yr	outfall1	0.2227	100	556.8	1.5	0	
+Sub450	RG_100yr	outfall1	0.0659	100	164.8	1.5	0	
+Sub451	RG_100yr	outfall1	0.2385	100	795	2.5	0	
+Sub452	RG_100yr	outfall1	0.0546	80	36.4	2	0	
+Sub453	RG_100yr	outfall1	0.048	100	24	2	0	
+Sub454	RG_100yr	outfall1	0.0469	100	23.5	2	0	
+Sub455	RG_100yr	outfall1	0.2958	100	98.6	2	0	
+Sub456	RG_100yr	outfall1	0.1527	100	76.4	2	0	
+Sub457	RG_100yr	outfall1	0.8826	100	294.2	2	0	
+Sub458	RG_100yr	outfall1	1.5132	100	504.4	2	0	
+Sub459	RG_100yr	outfall1	0.4438	100	147.9	2	0	
+Sub460	RG_100yr	outfall1	0.479	100	159.7	2	0	
+Sub461	RG_100yr	outfall1	0.5041	80	336.1	2	0	
+Sub462	RG_100yr	outfall1	0.2045	100	68.2	2	0	
+Sub463	RG_100yr	outfall1	0.2642	100	88.1	2	0	
+Sub464	RG_100yr	outfall1	0.3531	100	117.7	2	0	
+Sub465	RG_100yr	outfall1	0.3281	100	109.4	2	0	
+Sub466	RG_100yr	outfall1	0.0896	100	29.9	2	0	
+Sub467	RG_100yr	outfall1	0.0879	100	29.3	2	0	
+Sub468	RG_100yr	outfall1	0.2064	100	68.8	2	0	
+Sub469	RG_100yr	outfall1	0.0058	100	14.5	1.5	0	
+Sub470	RG_100yr	outfall1	0.0081	100	20.3	1.5	0	
+Sub471	RG_100yr	outfall1	0.0041	100	10.3	1.5	0	
+Sub472	RG_100yr	outfall1	0.006	100	15	1.5	0	
+Sub473	RG_100yr	outfall1	0.0031	100	7.8	1.5	0	
+Sub474	RG_100yr	outfall1	0.034	100	11.3	2	0	
+Sub475	RG_100yr	outfall1	0.0341	100	11.4	2	0	
+Sub476	RG_100yr	outfall1	1.1873	0	395.8	2	0	
+Sub477	RG_100yr	outfall1	0.2639	0	88	2	0	
+Sub478	RG_100yr	outfall1	0.4186	0	139.5	2	0	
+Sub479	RG_100yr	outfall1	0.2777	0	92.6	2	0	
+Sub480	RG_100yr	outfall1	0.3263	100	815.8	1.5	0	
+Sub481	RG_100yr	outfall1	0.182	100	455	1.5	0	
+Sub482	RG_100yr	outfall1	0.1281	100	320.3	1.5	0	
+Sub483	RG_100yr	outfall1	0.1295	100	323.8	1.5	0	
+Sub484	RG_100yr	outfall1	0.1339	100	334.8	1.5	0	
+Sub485	RG_100yr	outfall1	0.1046	100	261.5	1.5	0	
+Sub486	RG_100yr	outfall1	0.2174	100	724.7	2.5	0	
+Sub487	RG_100yr	outfall1	0.5406	100	1802	2.5	0	
+Sub488	RG_100yr	outfall1	0.3604	100	1201.3	2.5	0	
+Sub489	RG_100yr	outfall1	0.3657	100	1219	2.5	0	
+Sub490	RG_100yr	outfall1	0.3577	100	1192.3	2.5	0	
+Sub491	RG_100yr	outfall1	0.2992	100	997.3	2.5	0	
+Sub492	RG_100yr	outfall1	0.2114	100	704.7	2.5	0	
+Sub493	RG_100yr	outfall1	0.2511	100	837	2.5	0	
+Sub494	RG_100yr	outfall1	0.29	100	966.7	2.5	0	
+Sub495	RG_100yr	outfall1	0.3658	100	1219.3	2.5	0	
+Sub496	RG_100yr	outfall1	0.3518	100	1172.7	2.5	0	
+Sub497	RG_100yr	outfall1	0.2638	100	879.3	2.5	0	
+Sub498	RG_100yr	outfall1	0.2335	100	778.3	2.5	0	
+Sub499	RG_100yr	outfall1	0.3737	100	1245.7	2.5	0	
+Sub500	RG_100yr	outfall1	0.3218	100	1072.7	2.5	0	
+Sub501	RG_100yr	outfall1	0.3503	100	1167.7	2.5	0	
+Sub502	RG_100yr	outfall1	0	100	0	1.5	0	
+Sub503	RG_100yr	outfall1	0.1867	100	466.8	1.5	0	
 
 [SUBAREAS]
 ;;Subcatchment  	N-Imperv  	N-Perv    	S-Imperv  	S-Perv    	PctZero   	RouteTo   	PctRouted 
 ;;--------------	----------	----------	----------	----------	----------	----------	----------
-Sub000	0.01	0.15	1.91	3.81	25	OUTLET
-Sub001	0.01	0.15	1.91	3.81	25	OUTLET
-Sub002	0.01	0.15	1.91	3.81	25	OUTLET
-Sub003	0.01	0.15	1.91	3.81	25	OUTLET
-Sub004	0.01	0.15	1.91	3.81	25	OUTLET
-Sub005	0.01	0.15	1.91	3.81	25	OUTLET
-Sub006	0.01	0.15	1.91	3.81	25	OUTLET
-Sub007	0.01	0.15	1.91	3.81	25	OUTLET
-Sub008	0.01	0.15	1.91	3.81	25	OUTLET
-Sub009	0.01	0.15	1.91	3.81	25	OUTLET
-Sub010	0.01	0.15	1.91	3.81	25	OUTLET
-Sub011	0.01	0.15	1.91	3.81	25	OUTLET
-Sub012	0.01	0.15	1.91	3.81	25	OUTLET
-Sub013	0.01	0.15	1.91	3.81	25	OUTLET
-Sub014	0.01	0.15	1.91	3.81	25	OUTLET
-Sub015	0.01	0.15	1.91	3.81	25	OUTLET
-Sub016	0.01	0.15	1.91	3.81	25	OUTLET
-Sub017	0.01	0.15	1.91	3.81	25	OUTLET
-Sub018	0.01	0.15	1.91	3.81	25	OUTLET
-Sub019	0.01	0.15	1.91	3.81	25	OUTLET
-Sub020	0.01	0.15	1.91	3.81	25	OUTLET
-Sub021	0.01	0.15	1.91	3.81	25	OUTLET
-Sub022	0.01	0.15	1.91	3.81	25	OUTLET
-Sub023	0.01	0.15	1.91	3.81	25	OUTLET
-Sub024	0.01	0.15	1.91	3.81	25	OUTLET
-Sub025	0.01	0.15	1.91	3.81	25	OUTLET
-Sub026	0.01	0.15	1.91	3.81	25	OUTLET
-Sub027	0.01	0.15	1.91	3.81	25	OUTLET
-Sub028	0.01	0.15	1.91	3.81	25	OUTLET
-Sub029	0.01	0.15	1.91	3.81	25	OUTLET
-Sub030	0.01	0.15	1.91	3.81	25	OUTLET
-Sub031	0.01	0.15	1.91	3.81	25	OUTLET
-Sub032	0.01	0.15	1.91	3.81	25	OUTLET
-Sub033	0.01	0.15	1.91	3.81	25	OUTLET
-Sub034	0.01	0.15	1.91	3.81	25	OUTLET
-Sub035	0.01	0.15	1.91	3.81	25	OUTLET
-Sub036	0.01	0.15	1.91	3.81	25	OUTLET
-Sub037	0.01	0.15	1.91	3.81	25	OUTLET
-Sub038	0.01	0.15	1.91	3.81	25	OUTLET
-Sub039	0.01	0.15	1.91	3.81	25	OUTLET
-Sub040	0.01	0.15	1.91	3.81	25	OUTLET
-Sub041	0.01	0.15	1.91	3.81	25	OUTLET
-Sub042	0.01	0.15	1.91	3.81	25	OUTLET
-Sub043	0.01	0.15	1.91	3.81	25	OUTLET
-Sub044	0.01	0.15	1.91	3.81	25	OUTLET
-Sub045	0.01	0.15	1.91	3.81	25	OUTLET
-Sub046	0.01	0.15	1.91	3.81	25	OUTLET
-Sub047	0.01	0.15	1.91	3.81	25	OUTLET
-Sub048	0.01	0.15	1.91	3.81	25	OUTLET
-Sub049	0.01	0.15	1.91	3.81	25	OUTLET
-Sub050	0.01	0.15	1.91	3.81	25	OUTLET
-Sub051	0.01	0.15	1.91	3.81	25	OUTLET
-Sub052	0.01	0.15	1.91	3.81	25	OUTLET
-Sub053	0.01	0.15	1.91	3.81	25	OUTLET
-Sub054	0.01	0.15	1.91	3.81	25	OUTLET
-Sub055	0.01	0.15	1.91	3.81	25	OUTLET
-Sub056	0.01	0.15	1.91	3.81	25	OUTLET
-Sub057	0.01	0.15	1.91	3.81	25	OUTLET
-Sub058	0.01	0.15	1.91	3.81	25	OUTLET
-Sub059	0.01	0.15	1.91	3.81	25	OUTLET
-Sub060	0.01	0.15	1.91	3.81	25	OUTLET
-Sub061	0.01	0.15	1.91	3.81	25	OUTLET
-Sub062	0.01	0.15	1.91	3.81	25	OUTLET
-Sub063	0.01	0.15	1.91	3.81	25	OUTLET
-Sub064	0.01	0.15	1.91	3.81	25	OUTLET
-Sub065	0.01	0.15	1.91	3.81	25	OUTLET
-Sub066	0.01	0.15	1.91	3.81	25	OUTLET
-Sub067	0.01	0.15	1.91	3.81	25	OUTLET
-Sub068	0.01	0.15	1.91	3.81	25	OUTLET
-Sub069	0.01	0.15	1.91	3.81	25	OUTLET
-Sub070	0.01	0.15	1.91	3.81	25	OUTLET
-Sub071	0.01	0.15	1.91	3.81	25	OUTLET
-Sub072	0.01	0.15	1.91	3.81	25	OUTLET
-Sub073	0.01	0.15	1.91	3.81	25	OUTLET
-Sub074	0.01	0.15	1.91	5.08	25	OUTLET
-Sub075	0.01	0.15	1.91	3.81	25	OUTLET
-Sub076	0.01	0.15	1.91	3.81	25	OUTLET
-Sub077	0.01	0.15	1.91	3.81	25	OUTLET
-Sub078	0.01	0.15	1.91	3.81	25	OUTLET
-Sub079	0.01	0.15	1.91	5.08	25	OUTLET
-Sub080	0.01	0.15	1.91	3.81	25	OUTLET
-Sub081	0.01	0.15	1.91	3.81	25	OUTLET
-Sub083	0.01	0.15	1.91	3.81	25	OUTLET
-Sub084	0.01	0.15	1.91	3.81	25	OUTLET
-Sub085	0.01	0.15	1.91	3.81	25	OUTLET
-Sub086	0.01	0.15	1.91	3.81	25	OUTLET
-Sub087	0.01	0.15	1.91	3.81	25	OUTLET
-Sub088	0.01	0.15	1.91	3.81	25	OUTLET
-Sub089	0.01	0.15	1.91	5.08	25	OUTLET
-Sub090	0.01	0.15	1.91	5.08	25	OUTLET
-Sub092	0.01	0.15	1.91	5.08	25	OUTLET
-Sub093	0.01	0.15	1.91	3.81	25	OUTLET
-Sub094	0.01	0.15	1.91	3.81	25	OUTLET
-Sub095	0.01	0.15	1.91	3.81	25	OUTLET
-Sub096	0.01	0.15	1.91	3.81	25	OUTLET
-Sub097	0.01	0.15	1.91	3.81	25	OUTLET
-Sub098	0.01	0.15	1.91	3.81	25	OUTLET
-Sub099	0.01	0.15	1.91	3.81	25	OUTLET
-Sub100	0.01	0.15	1.91	3.81	25	OUTLET
-Sub101	0.01	0.15	1.91	3.81	25	OUTLET
-Sub102	0.01	0.15	1.91	3.81	25	OUTLET
-Sub103	0.01	0.15	1.91	3.81	25	OUTLET
-Sub104	0.01	0.15	1.91	5.08	25	OUTLET
-Sub105	0.01	0.15	1.91	5.08	25	OUTLET
-Sub106	0.01	0.15	1.91	3.81	25	OUTLET
-Sub107	0.01	0.15	1.91	3.81	25	OUTLET
-Sub108	0.01	0.15	1.91	3.81	25	OUTLET
-Sub109	0.01	0.15	1.91	5.08	25	OUTLET
-Sub110	0.01	0.15	1.91	3.81	25	OUTLET
-Sub111	0.01	0.15	1.91	3.81	25	OUTLET
-Sub112	0.01	0.15	1.91	3.81	25	OUTLET
-Sub113	0.01	0.15	1.91	3.81	25	OUTLET
-Sub114	0.01	0.15	1.91	3.81	25	OUTLET
-Sub115	0.01	0.15	1.91	3.81	25	OUTLET
-Sub116	0.01	0.15	1.91	3.81	25	OUTLET
-Sub117	0.01	0.15	1.91	3.81	25	OUTLET
-Sub118	0.01	0.15	1.91	3.81	25	OUTLET
-Sub119	0.01	0.15	1.91	3.81	25	OUTLET
-Sub120	0.01	0.15	1.91	3.81	25	OUTLET
-Sub121	0.01	0.15	1.91	3.81	25	OUTLET
-Sub122	0.01	0.15	1.91	3.81	25	OUTLET
-Sub123	0.01	0.15	1.91	3.81	25	OUTLET
-Sub124	0.01	0.15	1.91	3.81	25	OUTLET
-Sub125	0.01	0.15	1.91	3.81	25	OUTLET
-Sub126	0.01	0.15	1.91	3.81	25	OUTLET
-Sub127	0.01	0.15	1.91	3.81	25	OUTLET
-Sub128	0.01	0.15	1.91	3.81	25	OUTLET
-Sub129	0.01	0.15	1.91	3.81	25	OUTLET
-Sub130	0.01	0.15	1.91	3.81	25	OUTLET
-Sub131	0.01	0.15	1.91	3.81	25	OUTLET
-Sub132	0.01	0.15	1.91	3.81	25	OUTLET
-Sub133	0.01	0.15	1.91	3.81	25	OUTLET
-Sub134	0.01	0.15	1.91	5.08	25	OUTLET
-Sub135	0.01	0.15	1.91	5.08	25	OUTLET
-Sub136	0.01	0.15	1.91	5.08	25	OUTLET
-Sub137	0.01	0.15	1.91	5.08	25	OUTLET
-Sub138	0.01	0.15	1.91	5.08	25	OUTLET
-Sub139	0.01	0.15	1.91	3.81	25	OUTLET
-Sub140	0.01	0.15	1.91	3.81	25	OUTLET
-Sub141	0.01	0.15	1.91	3.81	25	OUTLET
-Sub142	0.01	0.15	1.91	3.81	25	OUTLET
-Sub143	0.01	0.15	1.91	3.81	25	OUTLET
-Sub144	0.01	0.15	1.91	3.81	25	OUTLET
-Sub145	0.01	0.15	1.91	3.81	25	OUTLET
-Sub146	0.01	0.15	1.91	5.08	25	OUTLET
-Sub147	0.01	0.15	1.91	3.81	25	OUTLET
-Sub148	0.01	0.15	1.91	3.81	25	OUTLET
-Sub149	0.01	0.15	1.91	3.81	25	OUTLET
-Sub150	0.01	0.15	1.91	3.81	25	OUTLET
-Sub151	0.01	0.15	1.91	3.81	25	OUTLET
-Sub152	0.01	0.15	1.91	3.81	25	OUTLET
-Sub153	0.01	0.15	1.91	3.81	25	OUTLET
-Sub154	0.01	0.15	1.91	5.08	25	OUTLET
-Sub155	0.01	0.15	1.91	3.81	25	OUTLET
-Sub156	0.01	0.15	1.91	3.81	25	OUTLET
-Sub157	0.01	0.15	1.91	3.81	25	OUTLET
-Sub158	0.01	0.15	1.91	3.81	25	OUTLET
-Sub159	0.01	0.15	1.91	3.81	25	OUTLET
-Sub160	0.01	0.15	1.91	3.81	25	OUTLET
-Sub161	0.01	0.15	1.91	3.81	25	OUTLET
-Sub162	0.01	0.15	1.91	5.08	25	OUTLET
-Sub163	0.01	0.15	1.91	3.81	25	OUTLET
-Sub164	0.01	0.15	1.91	5.08	25	OUTLET
-Sub165	0.01	0.15	1.91	3.81	25	OUTLET
-Sub166	0.01	0.15	1.91	3.81	25	OUTLET
-Sub167	0.01	0.15	1.91	3.81	25	OUTLET
-Sub168	0.01	0.15	1.91	3.81	25	OUTLET
-Sub169	0.01	0.15	1.91	3.81	25	OUTLET
-Sub170	0.01	0.15	1.91	3.81	25	OUTLET
-Sub171	0.01	0.15	1.91	3.81	25	OUTLET
-Sub172	0.01	0.15	1.91	3.81	25	OUTLET
-Sub173	0.01	0.15	1.91	3.81	25	OUTLET
-Sub174	0.01	0.15	1.91	3.81	25	OUTLET
-Sub175	0.01	0.15	1.91	3.81	25	OUTLET
-Sub176	0.01	0.15	1.91	3.81	25	OUTLET
-Sub177	0.01	0.15	1.91	3.81	25	OUTLET
-Sub178	0.01	0.15	1.91	3.81	25	OUTLET
-Sub179	0.01	0.15	1.91	3.81	25	OUTLET
-Sub180	0.01	0.15	1.91	3.81	25	OUTLET
-Sub181	0.01	0.15	1.91	5.08	25	OUTLET
-Sub182	0.01	0.15	1.91	5.08	25	OUTLET
-Sub183	0.01	0.15	1.91	5.08	25	OUTLET
-Sub184	0.01	0.15	1.91	5.08	25	OUTLET
-Sub185	0.01	0.15	1.91	5.08	25	OUTLET
-Sub186	0.01	0.15	1.91	5.08	25	OUTLET
-Sub187	0.01	0.15	1.91	5.08	25	OUTLET
-Sub188	0.01	0.15	1.91	5.08	25	OUTLET
-Sub189	0.01	0.15	1.91	5.08	25	OUTLET
-Sub190	0.01	0.15	1.91	5.08	25	OUTLET
-Sub191	0.01	0.15	1.91	5.08	25	OUTLET
-Sub192	0.01	0.15	1.91	3.81	25	OUTLET
-Sub193	0.01	0.15	1.91	5.08	25	OUTLET
-Sub194	0.01	0.15	1.91	5.08	25	OUTLET
-Sub195	0.01	0.15	1.91	5.08	25	OUTLET
-Sub196	0.01	0.15	1.91	5.08	25	OUTLET
-Sub197	0.01	0.15	1.91	3.81	25	OUTLET
-Sub198	0.01	0.15	1.91	3.81	25	OUTLET
-Sub199	0.01	0.15	1.91	3.81	25	OUTLET
-Sub200	0.01	0.15	1.91	3.81	25	OUTLET
-Sub201	0.01	0.15	1.91	5.08	25	OUTLET
-Sub202	0.01	0.15	1.91	5.08	25	OUTLET
-Sub203	0.01	0.15	1.91	5.08	25	OUTLET
-Sub204	0.01	0.15	1.91	5.08	25	OUTLET
-Sub205	0.01	0.15	1.91	5.08	25	OUTLET
-Sub206	0.01	0.15	1.91	5.08	25	OUTLET
-Sub207	0.01	0.15	1.91	5.08	25	OUTLET
-Sub208	0.01	0.15	1.91	3.81	25	OUTLET
-Sub209	0.01	0.15	1.91	3.81	25	OUTLET
-Sub210	0.01	0.15	1.91	5.08	25	OUTLET
-Sub211	0.01	0.15	1.91	3.81	25	OUTLET
-Sub212	0.01	0.15	1.91	3.81	25	OUTLET
-Sub213	0.01	0.15	1.91	3.81	25	OUTLET
-Sub214	0.01	0.15	1.91	3.81	25	OUTLET
-Sub215	0.01	0.15	1.91	3.81	25	OUTLET
-Sub216	0.01	0.15	1.91	5.08	25	OUTLET
-Sub217	0.01	0.15	1.91	3.81	25	OUTLET
-Sub218	0.01	0.15	1.91	3.81	25	OUTLET
-Sub219	0.01	0.15	1.91	3.81	25	OUTLET
-Sub220	0.01	0.15	1.91	5.08	25	OUTLET
-Sub221	0.01	0.15	1.91	3.81	25	OUTLET
-Sub222	0.01	0.15	1.91	5.08	25	OUTLET
-Sub223	0.01	0.15	1.91	5.08	25	OUTLET
-Sub224	0.01	0.15	1.91	3.81	25	OUTLET
-Sub225	0.01	0.15	1.91	3.81	25	OUTLET
-Sub226	0.01	0.15	1.91	3.81	25	OUTLET
-Sub228	0.01	0.15	1.91	3.81	25	OUTLET
-Sub229	0.01	0.15	1.91	3.81	25	OUTLET
-Sub230	0.01	0.15	1.91	3.81	25	OUTLET
-Sub231	0.01	0.15	1.91	5.08	25	OUTLET
-Sub232	0.01	0.15	1.91	5.08	25	OUTLET
-Sub233	0.01	0.15	1.91	5.08	25	OUTLET
-Sub234	0.01	0.15	1.91	3.81	25	OUTLET
-Sub235	0.01	0.15	1.91	5.08	25	OUTLET
-Sub236	0.01	0.15	1.91	3.81	25	OUTLET
-Sub237	0.01	0.15	1.91	3.81	25	OUTLET
-Sub238	0.01	0.15	1.91	3.81	25	OUTLET
-Sub239	0.01	0.15	1.91	3.81	25	OUTLET
-Sub240	0.01	0.15	1.91	3.81	25	OUTLET
-Sub241	0.01	0.15	1.91	3.81	25	OUTLET
-Sub242	0.01	0.15	1.91	3.81	25	OUTLET
-Sub243	0.01	0.15	1.91	3.81	25	OUTLET
-Sub244	0.01	0.15	1.91	3.81	25	OUTLET
-Sub245	0.01	0.15	1.91	5.08	25	OUTLET
-Sub246	0.01	0.15	1.91	5.08	25	OUTLET
-Sub247	0.01	0.15	1.91	5.08	25	OUTLET
-Sub248	0.01	0.15	1.91	3.81	25	OUTLET
-Sub249	0.01	0.15	1.91	5.08	25	OUTLET
-Sub250	0.01	0.15	1.91	5.08	25	OUTLET
-Sub251	0.01	0.15	1.91	3.81	25	OUTLET
-Sub252	0.01	0.15	1.91	3.81	25	OUTLET
-Sub253	0.01	0.15	1.91	3.81	25	OUTLET
-Sub254	0.01	0.15	1.91	5.08	25	OUTLET
-Sub255	0.01	0.15	1.91	3.81	25	OUTLET
-Sub256	0.01	0.15	1.91	5.08	25	OUTLET
-Sub257	0.01	0.15	1.91	5.08	25	OUTLET
-Sub258	0.01	0.15	1.91	5.08	25	OUTLET
-Sub259	0.01	0.15	1.91	3.81	25	OUTLET
-Sub260	0.01	0.15	1.91	3.81	25	OUTLET
-Sub261	0.01	0.15	1.91	3.81	25	OUTLET
-Sub262	0.01	0.15	1.91	5.08	25	OUTLET
-Sub263	0.01	0.15	1.91	3.81	25	OUTLET
-Sub264	0.01	0.15	1.91	3.81	25	OUTLET
-Sub265	0.01	0.15	1.91	5.08	25	OUTLET
-Sub266	0.01	0.15	1.91	3.81	25	OUTLET
-Sub267	0.01	0.15	1.91	3.81	25	OUTLET
-Sub268	0.01	0.15	1.91	3.81	25	OUTLET
-Sub269	0.01	0.15	1.91	5.08	25	OUTLET
-Sub270	0.01	0.15	1.91	5.08	25	OUTLET
-Sub271	0.01	0.15	1.91	5.08	25	OUTLET
-Sub272	0.01	0.15	1.91	5.08	25	OUTLET
-Sub273	0.01	0.15	1.91	5.08	25	OUTLET
-Sub274	0.01	0.15	1.91	5.08	25	OUTLET
-Sub275	0.01	0.15	1.91	5.08	25	OUTLET
-Sub276	0.01	0.15	1.91	3.81	25	OUTLET
-Sub277	0.01	0.15	1.91	3.81	25	OUTLET
-Sub278	0.01	0.15	1.91	3.81	25	OUTLET
-Sub279	0.01	0.15	1.91	3.81	25	OUTLET
-Sub280	0.01	0.15	1.91	5.08	25	OUTLET
-Sub281	0.01	0.15	1.91	3.81	25	OUTLET
-Sub282	0.01	0.15	1.91	3.81	25	OUTLET
-Sub283	0.01	0.15	1.91	3.81	25	OUTLET
-Sub284	0.01	0.15	1.91	3.81	25	OUTLET
-Sub285	0.01	0.15	1.91	3.81	25	OUTLET
-Sub286	0.01	0.15	1.91	3.81	25	OUTLET
-Sub287	0.01	0.15	1.91	3.81	25	OUTLET
-Sub288	0.01	0.15	1.91	3.81	25	OUTLET
-Sub289	0.01	0.15	1.91	3.81	25	OUTLET
-Sub290	0.01	0.15	1.91	3.81	25	OUTLET
-Sub291	0.01	0.15	1.91	3.81	25	OUTLET
-Sub292	0.01	0.15	1.91	3.81	25	OUTLET
-Sub293	0.01	0.15	1.91	3.81	25	OUTLET
-Sub294	0.01	0.15	1.91	3.81	25	OUTLET
-Sub295	0.01	0.15	1.91	3.81	25	OUTLET
-Sub296	0.01	0.15	1.91	5.08	25	OUTLET
-Sub297	0.01	0.15	1.91	5.08	25	OUTLET
-Sub298	0.01	0.15	1.91	3.81	25	OUTLET
-Sub299	0.01	0.15	1.91	3.81	25	OUTLET
-Sub300	0.01	0.15	1.91	3.81	25	OUTLET
-Sub301	0.01	0.15	1.91	3.81	25	OUTLET
-Sub302	0.01	0.15	1.91	3.81	25	OUTLET
-Sub303	0.01	0.15	1.91	3.81	25	OUTLET
-Sub304	0.01	0.15	1.91	3.81	25	OUTLET
-Sub305	0.01	0.15	1.91	3.81	25	OUTLET
-Sub306	0.01	0.15	1.91	3.81	25	OUTLET
-Sub307	0.01	0.15	1.91	3.81	25	OUTLET
-Sub308	0.01	0.15	1.91	5.08	25	OUTLET
-Sub309	0.01	0.15	1.91	3.81	25	OUTLET
-Sub310	0.01	0.15	1.91	3.81	25	OUTLET
-Sub311	0.01	0.15	1.91	5.08	25	OUTLET
-Sub312	0.01	0.15	1.91	3.81	25	OUTLET
-Sub313	0.01	0.15	1.91	3.81	25	OUTLET
-Sub314	0.01	0.15	1.91	5.08	25	OUTLET
-Sub315	0.01	0.15	1.91	3.81	25	OUTLET
-Sub316	0.01	0.15	1.91	3.81	25	OUTLET
-Sub317	0.01	0.15	1.91	3.81	25	OUTLET
-Sub318	0.01	0.15	1.91	3.81	25	OUTLET
-Sub319	0.01	0.15	1.91	3.81	25	OUTLET
-Sub320	0.01	0.15	1.91	3.81	25	OUTLET
-Sub321	0.01	0.15	1.91	3.81	25	OUTLET
-Sub322	0.01	0.15	1.91	3.81	25	OUTLET
-Sub323	0.01	0.15	1.91	3.81	25	OUTLET
-Sub324	0.01	0.15	1.91	3.81	25	OUTLET
-Sub325	0.01	0.15	1.91	3.81	25	OUTLET
-Sub326	0.01	0.15	1.91	5.08	25	OUTLET
-Sub327	0.01	0.15	1.91	3.81	25	OUTLET
-Sub328	0.01	0.15	1.91	3.81	25	OUTLET
-Sub329	0.01	0.15	1.91	3.81	25	OUTLET
-Sub330	0.01	0.15	1.91	3.81	25	OUTLET
-Sub331	0.01	0.15	1.91	3.81	25	OUTLET
-Sub332	0.01	0.15	1.91	3.81	25	OUTLET
-Sub333	0.01	0.15	1.91	3.81	25	OUTLET
-Sub334	0.01	0.15	1.91	3.81	25	OUTLET
-Sub335	0.01	0.15	1.91	3.81	25	OUTLET
-Sub336	0.01	0.15	1.91	3.81	25	OUTLET
-Sub337	0.01	0.15	1.91	3.81	25	OUTLET
-Sub338	0.01	0.15	1.91	3.81	25	OUTLET
-Sub339	0.01	0.15	1.91	3.81	25	OUTLET
-Sub340	0.01	0.15	1.91	5.08	25	OUTLET
-Sub341	0.01	0.15	1.91	5.08	25	OUTLET
-Sub342	0.01	0.15	1.91	5.08	25	OUTLET
-Sub343	0.01	0.15	1.91	5.08	25	OUTLET
-Sub344	0.01	0.15	1.91	3.81	25	OUTLET
-Sub345	0.01	0.15	1.91	3.81	25	OUTLET
-Sub346	0.01	0.15	1.91	3.81	25	OUTLET
-Sub347	0.01	0.15	1.91	3.81	25	OUTLET
-Sub348	0.01	0.15	1.91	3.81	25	OUTLET
-Sub349	0.01	0.15	1.91	5.08	25	OUTLET
-Sub350	0.01	0.15	1.91	5.08	25	OUTLET
-Sub351	0.01	0.15	1.91	3.81	25	OUTLET
-Sub352	0.01	0.15	1.91	3.81	25	OUTLET
-Sub353	0.01	0.15	1.91	3.81	25	OUTLET
-Sub354	0.01	0.15	1.91	3.81	25	OUTLET
-Sub355	0.01	0.15	1.91	5.08	25	OUTLET
-Sub356	0.01	0.15	1.91	5.08	25	OUTLET
-Sub357	0.01	0.15	1.91	5.08	25	OUTLET
-Sub358	0.01	0.15	1.91	5.08	25	OUTLET
-Sub359	0.01	0.15	1.91	5.08	25	OUTLET
-Sub360	0.01	0.15	1.91	5.08	25	OUTLET
-Sub361	0.01	0.15	1.91	5.08	25	OUTLET
-Sub362	0.01	0.15	1.91	3.81	25	OUTLET
-Sub363	0.01	0.15	1.91	3.81	25	OUTLET
-Sub364	0.01	0.15	1.91	3.81	25	OUTLET
-Sub365	0.01	0.15	1.91	3.81	25	OUTLET
-Sub366	0.01	0.15	1.91	3.81	25	OUTLET
-Sub367	0.01	0.15	1.91	3.81	25	OUTLET
-Sub368	0.01	0.15	1.91	3.81	25	OUTLET
-Sub369	0.01	0.15	1.91	3.81	25	OUTLET
-Sub370	0.01	0.15	1.91	3.81	25	OUTLET
-Sub371	0.01	0.15	1.91	3.81	25	OUTLET
-Sub372	0.01	0.15	1.91	3.81	25	OUTLET
-Sub373	0.01	0.15	1.91	3.81	25	OUTLET
-Sub374	0.01	0.15	1.91	3.81	25	OUTLET
-Sub375	0.01	0.15	1.91	3.81	25	OUTLET
-Sub376	0.01	0.15	1.91	3.81	25	OUTLET
-Sub377	0.01	0.15	1.91	3.81	25	OUTLET
-Sub378	0.01	0.15	1.91	3.81	25	OUTLET
-Sub379	0.01	0.15	1.91	3.81	25	OUTLET
-Sub380	0.01	0.15	1.91	3.81	25	OUTLET
-Sub381	0.01	0.15	1.91	3.81	25	OUTLET
-Sub382	0.01	0.15	1.91	3.81	25	OUTLET
-Sub383	0.01	0.15	1.91	3.81	25	OUTLET
-Sub384	0.01	0.15	1.91	3.81	25	OUTLET
-Sub385	0.01	0.15	1.91	3.81	25	OUTLET
-Sub386	0.01	0.15	1.91	3.81	25	OUTLET
-Sub387	0.01	0.15	1.91	5.08	25	OUTLET
-Sub388	0.01	0.15	1.91	5.08	25	OUTLET
-Sub389	0.01	0.15	1.91	5.08	25	OUTLET
-Sub390	0.01	0.15	1.91	5.08	25	OUTLET
-Sub391	0.01	0.15	1.91	3.81	25	OUTLET
-Sub392	0.01	0.15	1.91	5.08	25	OUTLET
-Sub393	0.01	0.15	1.91	5.08	25	OUTLET
-Sub394	0.01	0.15	1.91	5.08	25	OUTLET
-Sub395	0.01	0.15	1.91	5.08	25	OUTLET
-Sub396	0.01	0.15	1.91	5.08	25	OUTLET
-Sub397	0.01	0.15	1.91	5.08	25	OUTLET
-Sub398	0.01	0.15	1.91	3.81	25	OUTLET
-Sub399	0.01	0.15	1.91	5.08	25	OUTLET
-Sub400	0.01	0.15	1.91	3.81	25	OUTLET
-Sub401	0.01	0.15	1.91	3.81	25	OUTLET
-Sub402	0.01	0.15	1.91	5.08	25	OUTLET
-Sub403	0.01	0.15	1.91	5.08	25	OUTLET
-Sub404	0.01	0.15	1.91	5.08	25	OUTLET
-Sub405	0.01	0.15	1.91	5.08	25	OUTLET
-Sub406	0.01	0.15	1.91	5.08	25	OUTLET
-Sub407	0.01	0.15	1.91	5.08	25	OUTLET
-Sub408	0.01	0.15	1.91	5.08	25	OUTLET
-Sub409	0.01	0.15	1.91	5.08	25	OUTLET
-Sub410	0.01	0.15	1.91	5.08	25	OUTLET
-Sub411	0.01	0.15	1.91	5.08	25	OUTLET
-Sub412	0.01	0.15	1.91	3.81	25	OUTLET
-Sub413	0.01	0.15	1.91	3.81	25	OUTLET
-Sub414	0.01	0.15	1.91	5.08	25	OUTLET
-Sub415	0.01	0.15	1.91	3.81	25	OUTLET
-Sub416	0.01	0.15	1.91	3.81	25	OUTLET
-Sub417	0.01	0.15	1.91	3.81	25	OUTLET
-Sub418	0.01	0.15	1.91	5.08	25	OUTLET
-Sub419	0.01	0.15	1.91	3.81	25	OUTLET
-Sub420	0.01	0.15	1.91	3.81	25	OUTLET
-Sub421	0.01	0.15	1.91	3.81	25	OUTLET
-Sub422	0.01	0.15	1.91	3.81	25	OUTLET
-Sub423	0.01	0.15	1.91	5.08	25	OUTLET
-Sub424	0.01	0.15	1.91	3.81	25	OUTLET
-Sub425	0.01	0.15	1.91	3.81	25	OUTLET
-Sub426	0.01	0.15	1.91	3.81	25	OUTLET
-Sub427	0.01	0.15	1.91	3.81	25	OUTLET
-Sub428	0.01	0.15	1.91	3.81	25	OUTLET
-Sub429	0.01	0.15	1.91	3.81	25	OUTLET
-Sub430	0.01	0.15	1.91	5.08	25	OUTLET
-Sub431	0.01	0.15	1.91	3.81	25	OUTLET
-Sub432	0.01	0.15	1.91	5.08	25	OUTLET
-Sub433	0.01	0.15	1.91	5.08	25	OUTLET
-Sub434	0.01	0.15	1.91	5.08	25	OUTLET
-Sub435	0.01	0.15	1.91	5.08	25	OUTLET
-Sub436	0.01	0.15	1.91	5.08	25	OUTLET
-Sub437	0.01	0.15	1.91	5.08	25	OUTLET
-Sub438	0.01	0.15	1.91	5.08	25	OUTLET
-Sub439	0.01	0.15	1.91	5.08	25	OUTLET
-Sub440	0.01	0.15	1.91	5.08	25	OUTLET
-Sub441	0.01	0.15	1.91	5.08	25	OUTLET
-Sub442	0.01	0.15	1.91	5.08	25	OUTLET
-Sub443	0.01	0.15	1.91	5.08	25	OUTLET
-Sub444	0.01	0.15	1.91	5.08	25	OUTLET
-Sub445	0.01	0.15	1.91	5.08	25	OUTLET
-Sub446	0.01	0.15	1.91	5.08	25	OUTLET
-Sub447	0.01	0.15	1.91	5.08	25	OUTLET
-Sub448	0.01	0.15	1.91	5.08	25	OUTLET
-Sub449	0.01	0.15	1.91	3.81	25	OUTLET
-Sub450	0.01	0.15	1.91	3.81	25	OUTLET
-Sub451	0.01	0.15	1.91	3.81	25	OUTLET
-Sub452	0.01	0.15	1.91	3.81	25	OUTLET
-Sub453	0.01	0.15	1.91	3.81	25	OUTLET
-Sub454	0.01	0.15	1.91	3.81	25	OUTLET
-Sub455	0.01	0.15	1.91	3.81	25	OUTLET
-Sub456	0.01	0.15	1.91	3.81	25	OUTLET
-Sub457	0.01	0.15	1.91	3.81	25	OUTLET
-Sub458	0.01	0.15	1.91	3.81	25	OUTLET
-Sub459	0.01	0.15	1.91	3.81	25	OUTLET
-Sub460	0.01	0.15	1.91	3.81	25	OUTLET
-Sub461	0.01	0.15	1.91	3.81	25	OUTLET
-Sub462	0.01	0.15	1.91	3.81	25	OUTLET
-Sub463	0.01	0.15	1.91	3.81	25	OUTLET
-Sub464	0.01	0.15	1.91	3.81	25	OUTLET
-Sub465	0.01	0.15	1.91	3.81	25	OUTLET
-Sub466	0.01	0.15	1.91	3.81	25	OUTLET
-Sub467	0.01	0.15	1.91	3.81	25	OUTLET
-Sub468	0.01	0.15	1.91	3.81	25	OUTLET
-Sub469	0.01	0.15	1.91	3.81	25	OUTLET
-Sub470	0.01	0.15	1.91	3.81	26	OUTLET
-Sub471	0.01	0.15	1.91	3.81	27	OUTLET
-Sub472	0.01	0.15	1.91	3.81	28	OUTLET
-Sub473	0.01	0.15	1.91	3.81	29	OUTLET
-Sub474	0.01	0.15	1.91	3.81	30	OUTLET
-Sub475	0.01	0.15	1.91	3.81	31	OUTLET
-Sub476	0.01	0.15	1.91	5.08	32	OUTLET
-Sub477	0.01	0.15	1.91	5.08	33	OUTLET
-Sub478	0.01	0.15	1.91	5.08	34	OUTLET
-Sub479	0.01	0.15	1.91	5.08	35	OUTLET
-Sub480	0.01	0.15	1.91	3.81	36	OUTLET
-Sub481	0.01	0.15	1.91	3.81	37	OUTLET
-Sub482	0.01	0.15	1.91	3.81	38	OUTLET
-Sub483	0.01	0.15	1.91	3.81	39	OUTLET
-Sub484	0.01	0.15	1.91	3.81	40	OUTLET
-Sub485	0.01	0.15	1.91	3.81	41	OUTLET
-Sub486	0.01	0.15	1.91	3.81	42	OUTLET
-Sub487	0.01	0.15	1.91	3.81	43	OUTLET
-Sub488	0.01	0.15	1.91	3.81	44	OUTLET
-Sub489	0.01	0.15	1.91	3.81	45	OUTLET
-Sub490	0.01	0.15	1.91	3.81	46	OUTLET
-Sub491	0.01	0.15	1.91	3.81	47	OUTLET
-Sub492	0.01	0.15	1.91	3.81	48	OUTLET
-Sub493	0.01	0.15	1.91	3.81	49	OUTLET
-Sub494	0.01	0.15	1.91	3.81	50	OUTLET
-Sub495	0.01	0.15	1.91	3.81	51	OUTLET
-Sub496	0.01	0.15	1.91	3.81	52	OUTLET
-Sub497	0.01	0.15	1.91	3.81	53	OUTLET
-Sub498	0.01	0.15	1.91	3.81	54	OUTLET
-Sub499	0.01	0.15	1.91	3.81	55	OUTLET
-Sub500	0.01	0.15	1.91	3.81	56	OUTLET
-Sub501	0.01	0.15	1.91	3.81	57	OUTLET
-Sub502	0.01	0.15	1.91	3.81	58	OUTLET
-Sub503	0.01	0.15	1.91	3.81	59	OUTLET
+Sub000	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub001	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub002	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub003	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub004	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub005	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub006	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub007	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub008	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub009	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub010	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub011	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub012	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub013	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub014	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub015	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub016	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub017	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub018	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub019	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub020	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub021	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub022	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub023	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub024	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub025	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub026	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub027	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub028	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub029	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub030	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub031	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub032	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub033	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub034	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub035	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub036	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub037	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub038	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub039	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub040	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub041	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub042	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub043	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub044	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub045	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub046	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub047	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub048	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub049	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub050	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub051	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub052	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub053	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub054	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub055	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub056	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub057	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub058	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub059	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub060	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub061	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub062	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub063	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub064	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub065	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub066	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub067	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub068	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub069	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub070	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub071	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub072	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub073	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub074	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub075	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub076	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub077	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub078	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub079	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub080	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub081	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub082	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub083	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub084	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub085	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub086	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub087	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub088	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub089	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub090	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub091	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub092	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub093	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub094	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub095	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub096	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub097	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub098	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub099	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub100	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub101	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub102	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub103	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub104	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub105	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub106	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub107	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub108	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub109	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub110	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub111	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub112	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub113	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub114	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub115	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub116	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub117	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub118	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub119	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub120	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub121	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub122	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub123	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub124	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub125	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub126	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub127	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub128	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub129	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub130	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub131	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub132	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub133	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub134	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub135	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub136	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub137	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub138	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub139	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub140	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub141	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub142	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub143	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub144	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub145	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub146	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub147	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub148	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub149	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub150	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub151	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub152	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub153	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub154	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub155	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub156	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub157	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub158	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub159	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub160	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub161	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub162	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub163	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub164	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub165	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub166	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub167	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub168	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub169	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub170	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub171	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub172	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub173	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub174	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub175	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub176	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub177	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub178	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub179	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub180	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub181	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub182	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub183	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub184	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub185	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub186	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub187	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub188	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub189	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub190	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub191	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub192	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub193	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub194	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub195	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub196	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub197	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub198	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub199	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub200	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub201	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub202	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub203	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub204	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub205	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub206	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub207	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub208	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub209	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub210	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub211	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub212	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub213	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub214	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub215	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub216	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub217	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub218	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub219	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub220	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub221	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub222	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub223	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub224	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub225	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub226	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub227	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub228	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub229	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub230	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub231	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub232	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub233	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub234	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub235	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub236	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub237	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub238	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub239	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub240	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub241	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub242	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub243	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub244	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub245	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub246	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub247	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub248	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub249	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub250	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub251	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub252	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub253	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub254	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub255	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub256	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub257	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub258	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub259	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub260	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub261	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub262	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub263	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub264	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub265	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub266	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub267	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub268	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub269	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub270	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub271	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub272	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub273	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub274	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub275	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub276	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub277	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub278	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub279	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub280	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub281	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub282	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub283	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub284	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub285	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub286	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub287	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub288	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub289	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub290	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub291	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub292	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub293	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub294	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub295	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub296	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub297	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub298	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub299	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub300	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub301	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub302	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub303	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub304	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub305	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub306	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub307	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub308	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub309	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub310	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub311	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub312	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub313	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub314	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub315	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub316	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub317	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub318	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub319	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub320	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub321	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub322	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub323	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub324	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub325	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub326	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub327	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub328	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub329	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub330	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub331	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub332	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub333	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub334	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub335	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub336	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub337	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub338	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub339	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub340	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub341	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub342	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub343	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub344	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub345	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub346	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub347	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub348	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub349	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub350	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub351	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub352	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub353	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub354	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub355	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub356	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub357	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub358	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub359	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub360	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub361	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub362	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub363	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub364	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub365	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub366	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub367	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub368	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub369	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub370	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub371	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub372	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub373	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub374	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub375	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub376	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub377	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub378	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub379	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub380	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub381	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub382	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub383	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub384	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub385	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub386	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub387	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub388	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub389	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub390	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub391	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub392	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub393	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub394	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub395	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub396	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub397	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub398	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub399	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub400	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub401	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub402	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub403	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub404	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub405	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub406	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub407	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub408	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub409	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub410	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub411	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub412	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub413	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub414	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub415	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub416	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub417	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub418	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub419	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub420	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub421	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub422	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub423	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub424	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub425	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub426	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub427	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub428	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub429	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub430	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub431	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub432	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub433	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub434	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub435	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub436	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub437	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub438	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub439	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub440	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub441	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub442	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub443	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub444	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub445	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub446	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub447	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub448	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub449	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub450	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub451	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub452	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub453	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub454	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub455	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub456	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub457	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub458	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub459	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub460	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub461	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub462	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub463	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub464	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub465	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub466	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub467	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub468	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub469	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub470	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub471	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub472	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub473	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub474	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub475	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub476	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub477	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub478	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub479	0.01	0.15	1.91	5.08	25	OUTLET	
+Sub480	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub481	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub482	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub483	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub484	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub485	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub486	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub487	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub488	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub489	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub490	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub491	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub492	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub493	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub494	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub495	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub496	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub497	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub498	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub499	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub500	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub501	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub502	0.01	0.15	1.91	3.81	25	OUTLET	
+Sub503	0.01	0.15	1.91	3.81	25	OUTLET	
 
 [INFILTRATION]
 ;;Subcatchment  	Suction   	Ksat      	IMD       
@@ -1150,6 +1156,7 @@ Sub078	169.9	6.6	0.486
 Sub079	169.9	6.6	0.486
 Sub080	169.9	6.6	0.486
 Sub081	169.9	6.6	0.486
+Sub082	169.9	6.6	0.486
 Sub083	169.9	6.6	0.486
 Sub084	169.9	6.6	0.486
 Sub085	169.9	6.6	0.486
@@ -1158,6 +1165,7 @@ Sub087	169.9	6.6	0.486
 Sub088	169.9	6.6	0.486
 Sub089	169.9	6.6	0.486
 Sub090	169.9	6.6	0.486
+Sub091	169.9	6.6	0.486
 Sub092	169.9	6.6	0.486
 Sub093	169.9	6.6	0.486
 Sub094	169.9	6.6	0.486
@@ -1293,6 +1301,7 @@ Sub223	169.9	6.6	0.486
 Sub224	169.9	6.6	0.486
 Sub225	169.9	6.6	0.486
 Sub226	169.9	6.6	0.486
+Sub227	169.9	6.6	0.486
 Sub228	169.9	6.6	0.486
 Sub229	169.9	6.6	0.486
 Sub230	169.9	6.6	0.486
@@ -1602,98 +1611,101 @@ RB-RS1          	DRAIN     	1         	0.5       	6         	4         	0       
 [LID_USAGE]
 ;;Subcatchment  	LID Process     	Number 	Area      	Width     	InitSat   	FromImp   	ToPerv    	RptFile                 	DrainTo         	FromPerv  
 ;;--------------	----------------	-------	----------	----------	----------	----------	----------	------------------------	----------------	----------
-Sub000	GR-EX1	1	182.4	11.4	0	0	0	*	*	0
-Sub001	GR-EX1	0	1587.2	99.2	0	0	0	*	*	0
-Sub002	GR-EX1	0	375.2	23.45	0	0	0	*	*	0
-Sub003	GR-EX1	0	375.2	23.45	0	0	0	*	*	0
-Sub004	GR-EX1	0	460.8	28.8	0	0	0	*	*	0
-Sub005	GR-EX1	0	359.2	22.45	0	0	0	*	*	0
-Sub006	GR-EX1	0	359.2	22.45	0	0	0	*	*	0
-Sub007	GR-EX1	0	460.8	28.8	0	0	0	*	*	0
-Sub008	GR-EX1	0	460.8	28.8	0	0	0	*	*	0
-Sub009	GR-EX1	0	492	30.75	0	0	0	*	*	0
-Sub010	GR-EX1	0	492	30.75	0	0	0	*	*	0
-Sub011	GR-EX1	0	492	30.75	0	0	0	*	*	0
-Sub012	GR-EX1	0	460.8	28.8	0	0	0	*	*	0
-Sub013	GR-EX1	0	492	30.75	0	0	0	*	*	0
-Sub014	GR-EX1	0	492	30.75	0	0	0	*	*	0
-Sub015	GR-EX1	0	492	30.75	0	0	0	*	*	0
-Sub016	GR-EX1	0	460.8	28.8	0	0	0	*	*	0
-Sub017	GR-EX1	0	492	30.75	0	0	0	*	*	0
-Sub018	GR-EX1	0	492	30.75	0	0	0	*	*	0
-Sub019	GR-EX1	0	492	30.75	0	0	0	*	*	0
-Sub020	GR-EX1	0	460.8	28.8	0	0	0	*	*	0
-Sub021	GR-EX1	0	2044	127.75	0	0	0	*	*	0
-Sub022	GR-EX1	0	273.6	17.1	0	0	0	*	*	0
-Sub023	GR-EX1	0	504	31.5	0	0	0	*	*	0
-Sub024	GR-EX1	0	438.4	27.4	0	0	0	*	*	0
-Sub025	GR-EX1	0	388.8	24.3	0	0	0	*	*	0
-Sub026	GR-EX1	0	508	31.75	0	0	0	*	*	0
-Sub027	GR-EX1	0	790.4	49.4	0	0	0	*	*	0
-Sub028	GR-EX1	0	578.4	36.15	0	0	0	*	*	0
-Sub029	GR-EX1	0	592	37	0	0	0	*	*	0
-Sub030	GR-EX1	0	406.4	25.4	0	0	0	*	*	0
-Sub031	GR-EX1	0	365.6	22.85	0	0	0	*	*	0
-Sub032	GR-EX1	0	392	24.5	0	0	0	*	*	0
-Sub033	GR-EX1	0	320	20	0	0	0	*	*	0
-Sub034	GR-EX1	0	728.8	45.55	0	0	0	*	*	0
-Sub035	GR-EX1	0	440.8	27.55	0	0	0	*	*	0
-Sub036	GR-EX1	0	589.6	36.85	0	0	0	*	*	0
-Sub037	GR-EX1	0	406.4	25.4	0	0	0	*	*	0
-Sub038	GR-EX1	0	512	32	0	0	0	*	*	0
-Sub039	GR-EX1	0	496	31	0	0	0	*	*	0
-Sub040	GR-EX1	0	320	20	0	0	0	*	*	0
-Sub041	GR-EX1	0	705.6	44.1	0	0	0	*	*	0
-Sub042	GR-EX1	0	374.4	23.4	0	0	0	*	*	0
-Sub043	GR-EX1	0	513.6	32.1	0	0	0	*	*	0
-Sub044	GR-EX1	0	592.8	37.05	0	0	0	*	*	0
-Sub045	GR-EX1	0	406.4	25.4	0	0	0	*	*	0
-Sub046	GR-EX1	0	432.8	27.05	0	0	0	*	*	0
-Sub047	GR-EX1	0	464	29	0	0	0	*	*	0
-Sub048	GR-EX1	0	445.6	27.85	0	0	0	*	*	0
-Sub049	GR-EX1	0	780	48.75	0	0	0	*	*	0
-Sub050	GR-EX1	0	320	20	0	0	0	*	*	0
-Sub051	GR-EX1	0	464	29	0	0	0	*	*	0
-Sub052	GR-EX1	0	452.8	28.3	0	0	0	*	*	0
-Sub053	GR-EX1	0	820.8	51.3	0	0	0	*	*	0
-Sub054	GR-EX1	0	669.6	41.85	0	0	0	*	*	0
-Sub055	GR-EX1	0	580	36.25	0	0	0	*	*	0
-Sub056	GR-EX1	0	320	20	0	0	0	*	*	0
-Sub057	GR-EX1	0	976.8	61.05	0	0	0	*	*	0
-Sub058	GR-EX1	0	457.6	28.6	0	0	0	*	*	0
-Sub059	GR-EX1	0	464	29	0	0	0	*	*	0
-Sub060	GR-EX1	0	968	60.5	0	0	0	*	*	0
-Sub061	GR-EX1	0	676.8	42.3	0	0	0	*	*	0
-Sub062	GR-EX1	0	960.8	60.05	0	0	0	*	*	0
-Sub063	GR-EX1	0	743.2	46.45	0	0	0	*	*	0
-Sub064	GR-EX1	0	743.2	46.45	0	0	0	*	*	0
-Sub065	GR-EX1	0	743.2	46.45	0	0	0	*	*	0
-Sub066	GR-EX1	0	7417.6	463.6	0	0	0	*	*	0
-Sub067	GR-EX1	0	925.6	57.85	0	0	0	*	*	0
-Sub068	GR-EX1	0	5380	336.25	0	0	0	*	*	0
-Sub069	GR-EX1	0	959.2	59.95	0	0	0	*	*	0
-Sub070	GR-EX1	0	3472.8	217.05	0	0	0	*	*	0
-Sub071	GR-EX1	0	6396.8	399.8	0	0	0	*	*	0
-Sub072	GR-EX1	0	6358.4	397.4	0	0	0	*	*	0
-Sub073	GR-EX1	0	701.6	43.85	0	0	0	*	*	0
-
-[JUNCTIONS]
-;;Name          	Elevation 	MaxDepth  	InitDepth 	SurDepth  	Aponded   
-;;--------------	----------	----------	----------	----------	----------
-
+Sub000	GR-EX1	1	182.4	11.4	0	100	0	*	*	0
+Sub001	GR-EX1	1	1587.2	99.2	0	100	0	*	*	0
+Sub002	GR-EX1	1	375.2	23.45	0	100	0	*	*	0
+Sub003	GR-EX1	1	375.2	23.45	0	100	0	*	*	0
+Sub004	GR-EX1	1	460.8	19.2	0	100	0	*	*	0
+Sub005	GR-EX1	1	359.2	14.96666667	0	100	0	*	*	0
+Sub006	GR-EX1	1	359.2	14.96666667	0	100	0	*	*	0
+Sub007	GR-EX1	1	460.8	19.2	0	100	0	*	*	0
+Sub008	GR-EX1	1	460.8	19.2	0	100	0	*	*	0
+Sub009	GR-EX1	1	492	20.5	0	100	0	*	*	0
+Sub010	GR-EX1	1	492	20.5	0	100	0	*	*	0
+Sub011	GR-EX1	1	492	20.5	0	100	0	*	*	0
+Sub012	GR-EX1	1	460.8	19.2	0	100	0	*	*	0
+Sub013	GR-EX1	1	492	20.5	0	100	0	*	*	0
+Sub014	GR-EX1	1	492	20.5	0	100	0	*	*	0
+Sub015	GR-EX1	1	492	20.5	0	100	0	*	*	0
+Sub016	GR-EX1	1	460.8	19.2	0	100	0	*	*	0
+Sub017	GR-EX1	1	492	20.5	0	100	0	*	*	0
+Sub018	GR-EX1	1	492	20.5	0	100	0	*	*	0
+Sub019	GR-EX1	1	492	20.5	0	100	0	*	*	0
+Sub020	GR-EX1	1	460.8	19.2	0	100	0	*	*	0
+Sub021	GR-EX1	1	2044	85.16666667	0	100	0	*	*	0
+Sub022	GR-EX1	1	273.6	11.4	0	100	0	*	*	0
+Sub023	GR-EX1	1	504	21	0	100	0	*	*	0
+Sub024	GR-EX1	1	438.4	18.26666667	0	100	0	*	*	0
+Sub025	GR-EX1	1	388.8	16.2	0	100	0	*	*	0
+Sub026	GR-EX1	1	508	21.16666667	0	100	0	*	*	0
+Sub027	GR-EX1	1	790.4	49.4	0	100	0	*	*	0
+Sub028	GR-EX1	1	578.4	24.1	0	100	0	*	*	0
+Sub029	GR-EX1	1	592	24.66666667	0	100	0	*	*	0
+Sub030	GR-EX1	1	406.4	16.93333333	0	100	0	*	*	0
+Sub031	GR-EX1	1	365.6	15.23333333	0	100	0	*	*	0
+Sub032	GR-EX1	1	392	16.33333333	0	100	0	*	*	0
+Sub033	GR-EX1	1	320	13.33333333	0	100	0	*	*	0
+Sub034	GR-EX1	1	728.8	45.55	0	100	0	*	*	0
+Sub035	GR-EX1	1	440.8	18.36666667	0	100	0	*	*	0
+Sub036	GR-EX1	1	589.6	24.56666667	0	100	0	*	*	0
+Sub037	GR-EX1	1	406.4	16.93333333	0	100	0	*	*	0
+Sub038	GR-EX1	1	512	21.33333333	0	100	0	*	*	0
+Sub039	GR-EX1	1	496	20.66666667	0	100	0	*	*	0
+Sub040	GR-EX1	1	320	13.33333333	0	100	0	*	*	0
+Sub041	GR-EX1	1	705.6	29.4	0	100	0	*	*	0
+Sub042	GR-EX1	1	374.4	23.4	0	100	0	*	*	0
+Sub043	GR-EX1	1	513.6	21.4	0	100	0	*	*	0
+Sub044	GR-EX1	1	592.8	24.7	0	100	0	*	*	0
+Sub045	GR-EX1	1	406.4	16.93333333	0	100	0	*	*	0
+Sub046	GR-EX1	1	432.8	27.05	0	100	0	*	*	0
+Sub047	GR-EX1	1	464	19.33333333	0	100	0	*	*	0
+Sub048	GR-EX1	1	445.6	18.56666667	0	100	0	*	*	0
+Sub049	GR-EX1	1	780	32.5	0	100	0	*	*	0
+Sub050	GR-EX1	1	320	13.33333333	0	100	0	*	*	0
+Sub051	GR-EX1	1	464	19.33333333	0	100	0	*	*	0
+Sub052	GR-EX1	1	452.8	18.86666667	0	100	0	*	*	0
+Sub053	GR-EX1	1	820.8	34.2	0	100	0	*	*	0
+Sub054	GR-EX1	1	669.6	27.9	0	100	0	*	*	0
+Sub055	GR-EX1	1	580	24.16666667	0	100	0	*	*	0
+Sub056	GR-EX1	1	320	13.33333333	0	100	0	*	*	0
+Sub057	GR-EX1	1	976.8	61.05	0	100	0	*	*	0
+Sub058	GR-EX1	1	457.6	19.06666667	0	100	0	*	*	0
+Sub059	GR-EX1	1	464	19.33333333	0	100	0	*	*	0
+Sub060	GR-EX1	1	968	60.5	0	100	0	*	*	0
+Sub061	GR-EX1	1	676.8	28.2	0	100	0	*	*	0
+Sub062	GR-EX1	1	960.8	40.03333333	0	100	0	*	*	0
+Sub063	GR-EX1	1	743.2	30.96666667	0	100	0	*	*	0
+Sub064	GR-EX1	1	743.2	30.96666667	0	100	0	*	*	0
+Sub065	GR-EX1	1	743.2	30.96666667	0	100	0	*	*	0
+Sub066	GR-EX1	1	7417.6	309.0666667	0	100	0	*	*	0
+Sub067	GR-EX1	1	925.6	38.56666667	0	100	0	*	*	0
+Sub068	GR-EX1	1	5380	224.1666667	0	100	0	*	*	0
+Sub069	GR-EX1	1	959.2	39.96666667	0	100	0	*	*	0
+Sub070	GR-EX1	1	3472.8	144.7	0	100	0	*	*	0
+Sub071	GR-EX1	1	6396.8	266.5333333	0	100	0	*	*	0
+Sub073	GR-EX1	1	701.6	29.23333333	0	100	0	*	*	0
+Sub453	GR-EX1	1	384	24	0	100	0	*	*	0
+Sub454	GR-EX1	1	375.2	23.45	0	100	0	*	*	0
+Sub455	GR-EX1	1	2366.4	98.6	0	100	0	*	*	0
+Sub456	GR-EX1	1	1221.6	76.35	0	100	0	*	*	0
+Sub457	GR-EX1	1	7060.8	294.2	0	100	0	*	*	0
+Sub458	GR-EX1	1	12105.6	504.4	0	100	0	*	*	0
+Sub459	GR-EX1	1	3550.4	147.9333333	0	100	0	*	*	0
+Sub460	GR-EX1	1	3832	159.6666667	0	100	0	*	*	0
+Sub462	GR-EX1	1	1636	68.16666667	0	100	0	*	*	0
+Sub463	GR-EX1	1	2113.6	88.06666667	0	100	0	*	*	0
+Sub464	GR-EX1	1	2824.8	117.7	0	100	0	*	*	0
+Sub465	GR-EX1	1	2624.8	109.3666667	0	100	0	*	*	0
+Sub466	GR-EX1	1	716.8	29.86666667	0	100	0	*	*	0
+Sub467	GR-EX1	1	703.2	29.3	0	100	0	*	*	0
+Sub468	GR-EX1	1	1651.2	68.8	0	100	0	*	*	0
+Sub474	GR-EX1	1	272	11.33333333	0	100	0	*	*	0
+Sub475	GR-EX1	1	272.8	11.36666667	0	100	0	*	*	0
 
 [OUTFALLS]
 ;;Name          	Elevation 	Type      	Stage Data      	Gated   	Route To        
 ;;--------------	----------	----------	----------------	--------	----------------
-Outfall1        	1         	FREE      	                	NO      	                
-
-[CONDUITS]
-;;Name          	From Node       	To Node         	Length    	Roughness 	InOffset  	OutOffset 	InitFlow  	MaxFlow   
-;;--------------	----------------	----------------	----------	----------	----------	----------	----------	----------
-
-[XSECTIONS]
-;;Link          	Shape       	Geom1           	Geom2     	Geom3     	Geom4     	Barrels   	Culvert   
-;;--------------	------------	----------------	----------	----------	----------	----------	----------
+outfall1        	1         	FREE      	                	NO      	                
 
 [REPORT]
 ;;Reporting Options
@@ -1712,7 +1724,7 @@ Units     	Meters
 [COORDINATES]
 ;;Node          	X-Coord           	Y-Coord           
 ;;--------------	------------------	------------------
-Outfall1        	566326.870        	5932350.937       
+outfall1        	566326.870        	5932350.937       
 
 [VERTICES]
 ;;Link          	X-Coord           	Y-Coord           
@@ -1721,7 +1733,6 @@ Outfall1        	566326.870        	5932350.937
 [Polygons]
 ;;Subcatchment  	X-Coord           	Y-Coord           
 ;;--------------	------------------	------------------
-Subcatchment	X-Coord	Y-Coord
 Sub000	566815.1039	5932208.032
 Sub001	566883.9096	5932215.498
 Sub002	566885.7394	5932197.079
@@ -1804,6 +1815,7 @@ Sub078	567664.5765	5931935.509
 Sub079	567439.93	5931643.04
 Sub080	567210.2371	5931502.741
 Sub081	567073.3624	5931353.289
+Sub082	567360.914	5931379.628
 Sub083	567204.0336	5931156.527
 Sub084	567232.026	5931141.7
 Sub085	567281.6284	5931235.365
@@ -1812,6 +1824,7 @@ Sub087	567312.1795	5931349.662
 Sub088	567337.341	5931343.965
 Sub089	567220.6072	5931096.163
 Sub090	567265.7406	5931181.542
+Sub091	567317.4236	5931279.346
 Sub092	567359.9358	5931367.832
 Sub093	567199.999	5931154.973
 Sub094	567304.4089	5931327.88
@@ -1828,7 +1841,7 @@ Sub104	567140.866	5931638.682
 Sub105	566517.8996	5932199.163
 Sub106	567217.6875	5931148.065
 Sub107	567269.6099	5931239.138
-Sub108	567324.3699	5931343.83
+Sub108	567324.3697	5931343.83
 Sub109	566695.2179	5932251.431
 Sub110	566713.1971	5932241.429
 Sub111	566741.8893	5932231.566
@@ -1947,6 +1960,7 @@ Sub223	566977.0132	5931217.838
 Sub224	567059.7018	5931406.324
 Sub225	567032.6635	5931375.57
 Sub226	567093.488	5931477.727
+Sub227	567025.7706	5931411.969
 Sub228	567019.9314	5931402.17
 Sub229	567016.6562	5931367.139
 Sub230	567016.9648	5931333.673
@@ -2227,5 +2241,5 @@ Sub503	567394.0334	5932057.968
 [SYMBOLS]
 ;;Gage          	X-Coord           	Y-Coord           
 ;;--------------	------------------	------------------
-RG_100yr          	566899.000        	5932300.000       
+RG_100yr        	566899.000        	5932300.000       
 
