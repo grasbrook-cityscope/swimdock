@@ -2,4 +2,5 @@
 /data/subcatchments.json
 /app/__pycache__/
 .idea
+.vscode/
 venv
