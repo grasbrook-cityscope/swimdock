@@ -1,8 +1,10 @@
-import requests
 import json
 import os
 import time
 
+import requests
+
+import users
 from make_inp_file import make_inp_file
 from make_result_geojson import get_result_geojson
 
@@ -10,7 +12,7 @@ known_hashes = {}
 
 cwd = os.getcwd()
 data_dir = (os.path.dirname(cwd) + "/data/").replace("//", "/")
-cityPyoUrl = 'https://nc.hcu-hamburg.de/cityPyo/'
+cityPyoUrl = "https://nc.hcu-hamburg.de/cityPyo/"
 
 
 # login to cityPyo using the local user_cred_file
@@ -18,16 +20,15 @@ cityPyoUrl = 'https://nc.hcu-hamburg.de/cityPyo/'
 def get_city_pyo_user_id(user_cred):
     print("login in to cityPyo")
     response = requests.post(cityPyoUrl + "login", json=user_cred)
-
-    return response.json()['user_id']
+    if response.status_code == 401:
+        print("user credentials not valid")
+        raise Warning("User credentials invalid")
+    return response.json()["user_id"]
 
 
 # get the stormwater scenarios from cityPyo
 def get_stormwater_scenarios():
-    data = {
-        "userid":user_id,
-        "layer":"stormwater_scenario"
-        }
+    data = {"userid": user_id, "layer": "stormwater_scenario"}
 
     try:
         response = requests.get(cityPyoUrl + "getLayer", json=data)
@@ -53,7 +54,10 @@ def perform_swmm_analysis(user_input):
 
     print("computing")
     from swmm.toolkit import solver
-    solver.swmm_run('../data/scenario.inp', '../data/scenario.rpt', '../data/scenario.out')
+
+    solver.swmm_run(
+        "../data/scenario.inp", "../data/scenario.rpt", "../data/scenario.out"
+    )
 
 
 # sends the response to cityPyo, creating a new file as myHash.json
@@ -63,10 +67,7 @@ def send_response_to_cityPyo(scenario_hash):
 
     try:
         query = scenario_hash
-        data = {
-            "userid": user_id,
-            "data": result
-        }
+        data = {"userid": user_id, "data": result}
         response = requests.post(cityPyoUrl + "addLayerData/" + query, json=data)
 
         if not response.status_code == 200:
@@ -84,13 +85,14 @@ def send_response_to_cityPyo(scenario_hash):
 # Compute loop to run eternally
 if __name__ == "__main__":
     # load cityPyo users from config
-    with open(cwd + "/" + "cityPyoUser.json", "r") as city_pyo_users:
-        users = json.load(city_pyo_users)
-
+    usersDict = users.readUserCredentials()
     # get user id's to eternally check for new scenario data for each user
     user_ids = []
-    for user_cred in users["users"]:
-        user_ids.append(get_city_pyo_user_id(user_cred))
+    for user_cred in usersDict["users"]:
+        try:
+            user_ids.append(get_city_pyo_user_id(user_cred))
+        except:
+            print("Could not authenticate user", user_cred["username"])
 
     for user_id in user_ids:
         # init known hashes for user
