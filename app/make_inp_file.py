@@ -2,10 +2,10 @@ import os
 import swmmio
 
 cwd = os.getcwd()
-data_dir = (os.path.dirname(cwd) + "/data/").replace("//", "/")
+default_data_dir = (os.path.dirname(cwd) + "/data/").replace("//", "/")
 
 
-def make_inp_file(user_input):
+def make_inp_file(user_input, data_dir=default_data_dir):
     # initialize a baseline model object
     baseline = swmmio.Model(data_dir + 'baseline.inp')
 
