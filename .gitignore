@@ -7,3 +7,7 @@ venv
 
 # credentials 
 cityPyoUser.json
+
+# working data
+data/*.out
+data/*.rpt
