@@ -1,7 +1,7 @@
 import os
 from typing import Final
 
-from storm_water_management import compute_swmm, perform_swmm_analysis
+from storm_water_management import compute_swmm
 
 cwd: Final = os.getcwd()
 

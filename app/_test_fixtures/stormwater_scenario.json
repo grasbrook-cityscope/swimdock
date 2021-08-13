@@ -1,0 +1,17 @@
+{
+    "hash": "NEW HASH",
+    "model_updates": [
+      {
+        "subcatchment_id": "Sub000",
+        "outlet_id": "J_out17"
+      },
+      {
+        "subcatchment_id": "Sub001",
+        "outlet_id": "J_out18"
+      }
+    ],
+    "rain_event": {
+      "return_period": 100,
+      "duration": 120
+    }
+}

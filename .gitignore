@@ -11,3 +11,4 @@ cityPyoUser.json
 # working data
 data/*.out
 data/*.rpt
+data/scenario.inp
