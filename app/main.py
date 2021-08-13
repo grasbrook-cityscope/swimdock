@@ -1,4 +1,3 @@
-import json
 import os
 import time
 
@@ -104,19 +103,15 @@ if __name__ == "__main__":
             # compute results for each scenario
             scenarios = get_stormwater_scenarios()
             for scenario_id in scenarios.keys():
-                compute = False
                 try:
                     old_hash = known_hashes[user_id][scenario_id]
                     if old_hash != scenarios[scenario_id]["hash"]:
                         # new hash, recomputation needed
-                        compute = True
+                        scenario = scenarios[scenario_id]
+                        perform_swmm_analysis(scenario)
+                        send_response_to_cityPyo(scenario["hash"])
+                        known_hashes[user_id][scenario_id] = scenario["hash"]
                 except KeyError:
-                    # no result hash known for scenario_id. Compute result.
-                    compute = True
-
-                if compute:
-                    perform_swmm_analysis(scenarios[scenario_id])
-                    send_response_to_cityPyo(scenarios[scenario_id]["hash"])
-                    known_hashes[user_id][scenario_id] = scenarios[scenario_id]["hash"]
+                    pass  # no result hash known for scenario_id. Compute result.
 
             time.sleep(1)
