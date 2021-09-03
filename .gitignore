@@ -1,6 +1,6 @@
 /app/cityPyoUser.json
 /data/subcatchments.json
-/app/__pycache__/
+__pycache__/
 .idea
 .vscode/
 venv
