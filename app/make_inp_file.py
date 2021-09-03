@@ -3,11 +3,12 @@ import swmmio
 
 cwd = os.getcwd()
 default_data_dir = (os.path.dirname(cwd) + "/data/").replace("//", "/")
+default_baseline = default_data_dir + 'baseline.inp'
+default_scenario = default_data_dir + 'scenario.inp'
 
-
-def make_inp_file(user_input, data_dir=default_data_dir):
+def make_inp_file(user_input, baseline_file=default_baseline, scenario_output=default_scenario):
     # initialize a baseline model object
-    baseline = swmmio.Model(data_dir + 'baseline.inp')
+    baseline = swmmio.Model(baseline_file)
 
     # create a dataframe of the model's subcatchments
     subs = baseline.inp.subcatchments
@@ -25,8 +26,7 @@ def make_inp_file(user_input, data_dir=default_data_dir):
         subs.at[i, 'Raingage'] = scenario_rain_gage_name
 
     # Save the new model with the adjusted data
-    new_file_path = data_dir + 'scenario.inp'
-    baseline.inp.save(new_file_path)
+    baseline.inp.save(scenario_output)
 
 
 # debugging only
