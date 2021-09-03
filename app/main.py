@@ -4,7 +4,7 @@ import time
 import requests
 
 import users
-from make_inp_file import make_inp_file
+from storm_water_management import perform_swmm_analysis
 from make_result_geojson import get_result_geojson
 
 known_hashes = {}
@@ -44,19 +44,6 @@ def get_stormwater_scenarios():
         return None
 
     return response.json()
-
-
-# creates an input file from user_input and run the simulation
-def perform_swmm_analysis(user_input):
-    print("making input file")
-    make_inp_file(user_input)
-
-    print("computing")
-    from swmm.toolkit import solver
-
-    solver.swmm_run(
-        "../data/scenario.inp", "../data/scenario.rpt", "../data/scenario.out"
-    )
 
 
 # sends the response to cityPyo, creating a new file as myHash.json
