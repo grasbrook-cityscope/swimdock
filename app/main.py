@@ -1,3 +1,4 @@
+from city_pyo import fetch_user_id
 import os
 import time
 
@@ -12,17 +13,6 @@ known_hashes = {}
 cwd = os.getcwd()
 data_dir = (os.path.dirname(cwd) + "/data/").replace("//", "/")
 cityPyoUrl = "https://nc.hcu-hamburg.de/cityPyo/"
-
-
-# login to cityPyo using the local user_cred_file
-# saves the user_id as global variable
-def get_city_pyo_user_id(user_cred):
-    print("login in to cityPyo")
-    response = requests.post(cityPyoUrl + "login", json=user_cred)
-    if response.status_code == 401:
-        print("user credentials not valid")
-        raise Warning("User credentials invalid")
-    return response.json()["user_id"]
 
 
 # get the stormwater scenarios from cityPyo
@@ -76,7 +66,7 @@ if __name__ == "__main__":
     user_ids = []
     for user_cred in usersDict["users"]:
         try:
-            user_ids.append(get_city_pyo_user_id(user_cred))
+            user_ids.append(fetch_user_id(user_cred))
         except:
             print("Could not authenticate user", user_cred["username"])
 
