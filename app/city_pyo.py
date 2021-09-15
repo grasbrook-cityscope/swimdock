@@ -13,7 +13,7 @@ def fetch_user_id(user_cred: dict) -> str:
     return response.json()["user_id"]
 
 
-def fetch_stormwater_scenarios(user_id: str) ->Optional(dict):
+def fetch_stormwater_scenarios(user_id: str) ->Optional[dict]:
     data = {"userid": user_id, "layer": "stormwater_scenario"}
 
     try:
