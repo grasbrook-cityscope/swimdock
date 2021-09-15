@@ -27,11 +27,11 @@ def test_remote_exception(requests_mock):
 
 def test_fetch_stormwater_scenarios_remote_error(requests_mock):
     requests_mock.get(CITY_PYO_URL + "getLayer", status_code=400)
-    assert fetch_stormwater_scenarios("adsadsd") == {}
+    assert fetch_stormwater_scenarios("userId") == None
 
 def test_fetch_stormwater_scenarios_connection_error(requests_mock):
     requests_mock.get(CITY_PYO_URL + "getLayer", exc=requests.exceptions.ConnectTimeout)
-    assert fetch_stormwater_scenarios("adsadsd") == None
+    assert fetch_stormwater_scenarios("userId") == None
 
 def stormwater_scenario():
     with open(
@@ -42,4 +42,4 @@ def stormwater_scenario():
 
 def test_fetch_stormwater_scenarios(requests_mock):
     requests_mock.get(CITY_PYO_URL + "getLayer", json=[stormwater_scenario()])
-    assert fetch_stormwater_scenarios("adsadsd") == [stormwater_scenario()]
+    assert fetch_stormwater_scenarios("userId") == [stormwater_scenario()]
