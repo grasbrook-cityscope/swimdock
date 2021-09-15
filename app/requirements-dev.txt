@@ -1,0 +1,4 @@
+-r requirements.txt
+
+pytest
+requests-mock==1.9.3
