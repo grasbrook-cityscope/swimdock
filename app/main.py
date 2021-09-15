@@ -8,8 +8,6 @@ import users
 from storm_water_management import perform_swmm_analysis
 from make_result_geojson import get_result_geojson
 
-known_hashes = {}
-
 cwd = os.getcwd()
 data_dir = (os.path.dirname(cwd) + "/data/").replace("//", "/")
 cityPyoUrl = "https://nc.hcu-hamburg.de/cityPyo/"
@@ -39,6 +37,7 @@ def send_response_to_cityPyo(scenario_hash):
 
 # Compute loop to run eternally
 if __name__ == "__main__":
+    processed_scenarios = {}
     # load cityPyo users from config
     usersDict = users.readUserCredentials()
     # get user id's to eternally check for new scenario data for each user
@@ -51,7 +50,7 @@ if __name__ == "__main__":
 
     for user_id in user_ids:
         # init known hashes for user
-        known_hashes[user_id] = {}
+        processed_scenarios[user_id] = {}
 
     # loop forever
     while True:
@@ -60,13 +59,13 @@ if __name__ == "__main__":
             scenarios = fetch_stormwater_scenarios(user_id)
             for scenario_id in scenarios.keys():
                 try:
-                    old_hash = known_hashes[user_id][scenario_id]
-                    if old_hash != scenarios[scenario_id]["hash"]:
+                    processed_scenario = processed_scenarios[user_id][scenario_id]
+                    if processed_scenario != scenarios[scenario_id]["hash"]:
                         # new hash, recomputation needed
                         scenario = scenarios[scenario_id]
                         perform_swmm_analysis(scenario)
                         send_response_to_cityPyo(scenario["hash"])
-                        known_hashes[user_id][scenario_id] = scenario["hash"]
+                        processed_scenarios[user_id][scenario_id] = scenario["hash"]
                 except KeyError:
                     pass  # no result hash known for scenario_id. Compute result.
 
