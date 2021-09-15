@@ -1,6 +1,8 @@
+import json
+import os
 import pytest
 import requests
-from city_pyo import CITY_PYO_URL, fetch_user_id
+from city_pyo import CITY_PYO_URL, fetch_stormwater_scenarios, fetch_user_id
 
 
 def test_success(requests_mock):
@@ -21,3 +23,23 @@ def test_remote_exception(requests_mock):
     requests_mock.post(CITY_PYO_URL + "login", exc=requests.exceptions.ConnectTimeout)
     with pytest.raises(requests.exceptions.ConnectTimeout):
         fetch_user_id({"username": "name"})
+
+
+def test_fetch_stormwater_scenarios_remote_error(requests_mock):
+    requests_mock.get(CITY_PYO_URL + "getLayer", status_code=400)
+    assert fetch_stormwater_scenarios("adsadsd") == {}
+
+def test_fetch_stormwater_scenarios_connection_error(requests_mock):
+    requests_mock.get(CITY_PYO_URL + "getLayer", exc=requests.exceptions.ConnectTimeout)
+    assert fetch_stormwater_scenarios("adsadsd") == None
+
+def stormwater_scenario():
+    with open(
+        os.path.join(os.path.dirname(__file__), "fixtures", "stormwater_scenario.json"),
+        "r",
+    ) as stormwater_scenario:
+        return json.load(stormwater_scenario)
+
+def test_fetch_stormwater_scenarios(requests_mock):
+    requests_mock.get(CITY_PYO_URL + "getLayer", json=[stormwater_scenario()])
+    assert fetch_stormwater_scenarios("adsadsd") == [stormwater_scenario()]

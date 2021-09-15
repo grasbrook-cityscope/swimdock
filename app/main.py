@@ -1,4 +1,4 @@
-from city_pyo import fetch_user_id
+from city_pyo import fetch_stormwater_scenarios, fetch_user_id
 import os
 import time
 
@@ -13,27 +13,6 @@ known_hashes = {}
 cwd = os.getcwd()
 data_dir = (os.path.dirname(cwd) + "/data/").replace("//", "/")
 cityPyoUrl = "https://nc.hcu-hamburg.de/cityPyo/"
-
-
-# get the stormwater scenarios from cityPyo
-def get_stormwater_scenarios():
-    data = {"userid": user_id, "layer": "stormwater_scenario"}
-
-    try:
-        response = requests.get(cityPyoUrl + "getLayer", json=data)
-
-        if not response.status_code == 200:
-            print("could not get from cityPyo")
-            print("Error code", response.status_code)
-            # todo raise error and return error
-            return {}
-    # exit on request execption (cityIO down)
-    except requests.exceptions.RequestException as e:
-        print("CityPyo error. " + str(e))
-
-        return None
-
-    return response.json()
 
 
 # sends the response to cityPyo, creating a new file as myHash.json
@@ -78,7 +57,7 @@ if __name__ == "__main__":
     while True:
         for user_id in user_ids:
             # compute results for each scenario
-            scenarios = get_stormwater_scenarios()
+            scenarios = fetch_stormwater_scenarios(user_id)
             for scenario_id in scenarios.keys():
                 try:
                     old_hash = known_hashes[user_id][scenario_id]
