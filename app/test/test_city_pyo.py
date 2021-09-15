@@ -41,5 +41,6 @@ def stormwater_scenario():
         return json.load(stormwater_scenario)
 
 def test_fetch_stormwater_scenarios(requests_mock):
-    requests_mock.get(CITY_PYO_URL + "getLayer", json=[stormwater_scenario()])
-    assert fetch_stormwater_scenarios("userId") == [stormwater_scenario()]
+    mock_scenarios = {"scenarioId":stormwater_scenario()}
+    requests_mock.get(CITY_PYO_URL + "getLayer", json=mock_scenarios)
+    assert fetch_stormwater_scenarios("userId") == mock_scenarios
