@@ -2,8 +2,6 @@ from typing import Optional
 
 import requests
 
-from make_result_geojson import get_result_geojson
-
 CITY_PYO_URL = "https://nc.hcu-hamburg.de/cityPyo/"
 
 
@@ -31,13 +29,12 @@ def fetch_stormwater_scenarios(user_id: str) -> Optional[dict]:
 
 
 # sends the response to cityPyo, creating a new file as myHash.json
-def send_geojson(user_id: str, scenario_hash: str) -> None:
+def send_geojson(user_id: str, scenario_hash: str, geo_json: dict) -> None:
     print("\n sending to cityPyo")
-    result = get_result_geojson()
 
     try:
         query = scenario_hash
-        data = {"userid": user_id, "data": result}
+        data = {"userid": user_id, "data": geo_json}
         response = requests.post(CITY_PYO_URL + "addLayerData/" + query, json=data)
 
         if not response.status_code == 200:

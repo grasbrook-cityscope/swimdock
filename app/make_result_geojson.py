@@ -37,7 +37,7 @@ def get_geojson():
 
 
 # reads the simulation result, returns it in geojson format
-def get_result_geojson():
+def get_result_geojson()->dict:
     sim_duration, report_step = get_sim_duration_and_report_step()
 
     _handle = output.init()

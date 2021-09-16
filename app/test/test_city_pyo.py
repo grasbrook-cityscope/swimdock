@@ -57,7 +57,7 @@ def test_fetch_stormwater_scenarios(requests_mock):
 def test_send_geojson_remote_error(requests_mock, capsys):
     scenario_hash = "scenarioHash"
     requests_mock.post(CITY_PYO_URL + "addLayerData/" + scenario_hash, status_code=400)
-    send_geojson(user_id="userId", scenario_hash=scenario_hash) == None
+    send_geojson(user_id="userId", scenario_hash=scenario_hash, geo_json={}) == None
     capture_print = capsys.readouterr()
     assert "could not post to cityPyo" in capture_print.out
     assert "Error code 400" in capture_print.out
@@ -69,7 +69,7 @@ def test_fetch_stormwater_scenarios_connection_error(requests_mock, capsys):
         CITY_PYO_URL + "addLayerData/" + scenario_hash,
         exc=requests.exceptions.ConnectTimeout,
     )
-    send_geojson(user_id="userId", scenario_hash=scenario_hash) 
+    send_geojson(user_id="userId", scenario_hash=scenario_hash, geo_json={}) 
     capture_print = capsys.readouterr()
     assert "CityPyo error" in capture_print.out
 
@@ -78,6 +78,6 @@ def test_fetch_stormwater_scenarios(requests_mock, capsys):
     requests_mock.post(
         CITY_PYO_URL + "addLayerData/" + scenario_hash
     )
-    send_geojson(user_id="userId", scenario_hash=scenario_hash) 
+    send_geojson(user_id="userId", scenario_hash=scenario_hash, geo_json={}) 
     capture_print = capsys.readouterr()
     assert "result send to cityPyo." in capture_print.out
