@@ -4,7 +4,6 @@ import time
 import users
 from city_pyo import fetch_stormwater_scenarios, fetch_user_id, send_geojson
 from storm_water_management import perform_swmm_analysis
-from make_result_geojson import get_result_geojson
 
 cwd = os.getcwd()
 data_dir = (os.path.dirname(cwd) + "/data/").replace("//", "/")
@@ -38,8 +37,8 @@ if __name__ == "__main__":
                     if processed_scenario != scenarios[scenario_id]["hash"]:
                         # new hash, recomputation needed
                         scenario = scenarios[scenario_id]
-                        perform_swmm_analysis(scenario)
-                        send_geojson(user_id, scenario["hash"], get_result_geojson())
+                        geo_json = perform_swmm_analysis(scenario)
+                        send_geojson(user_id, scenario["hash"], geo_json)
                         processed_scenarios[user_id][scenario_id] = scenario["hash"]
                 except KeyError:
                     pass  # no result hash known for scenario_id. Compute result.
