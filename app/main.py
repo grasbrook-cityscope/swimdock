@@ -1,13 +1,8 @@
-import os
 import time
 
 import users
 from city_pyo import fetch_stormwater_scenarios, fetch_user_id, send_geojson
 from storm_water_management import perform_swmm_analysis
-
-cwd = os.getcwd()
-data_dir = (os.path.dirname(cwd) + "/data/").replace("//", "/")
-
 
 # Compute loop to run eternally
 if __name__ == "__main__":
