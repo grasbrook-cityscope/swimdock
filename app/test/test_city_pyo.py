@@ -15,19 +15,21 @@ def test_success(requests_mock):
         CITY_PYO_URL + "login",
         json={"restricted": False, "user_id": "35866b18-b5c5-4b95-9b37-fa8d69dac4c0"},
     )
-    assert "35866b18-b5c5-4b95-9b37-fa8d69dac4c0" == fetch_user_id({"username": "name"})
+    assert "35866b18-b5c5-4b95-9b37-fa8d69dac4c0" == fetch_user_id(
+        {"username": "name", "password": "password"}
+    )
 
 
 def test_user_not_allowed(requests_mock):
     requests_mock.post(CITY_PYO_URL + "login", status_code=401)
     with pytest.raises(Warning, match=r".*credentials invalid.*"):
-        fetch_user_id({"username": "name"})
+        fetch_user_id({"username": "name", "password": "password"})
 
 
 def test_remote_exception(requests_mock):
     requests_mock.post(CITY_PYO_URL + "login", exc=requests.exceptions.ConnectTimeout)
     with pytest.raises(requests.exceptions.ConnectTimeout):
-        fetch_user_id({"username": "name"})
+        fetch_user_id({"username": "name", "password": "password"})
 
 
 def test_fetch_stormwater_scenarios_remote_error(requests_mock):
@@ -69,15 +71,14 @@ def test_send_geojson_connection_error(requests_mock, capsys):
         CITY_PYO_URL + "addLayerData/" + scenario_hash,
         exc=requests.exceptions.ConnectTimeout,
     )
-    send_geojson(user_id="userId", scenario_hash=scenario_hash, geo_json={}) 
+    send_geojson(user_id="userId", scenario_hash=scenario_hash, geo_json={})
     capture_print = capsys.readouterr()
     assert "CityPyo error" in capture_print.out
 
+
 def test_send_geojson(requests_mock, capsys):
     scenario_hash = "scenarioHash"
-    requests_mock.post(
-        CITY_PYO_URL + "addLayerData/" + scenario_hash
-    )
-    send_geojson(user_id="userId", scenario_hash=scenario_hash, geo_json={}) 
+    requests_mock.post(CITY_PYO_URL + "addLayerData/" + scenario_hash)
+    send_geojson(user_id="userId", scenario_hash=scenario_hash, geo_json={})
     capture_print = capsys.readouterr()
     assert "result send to cityPyo." in capture_print.out

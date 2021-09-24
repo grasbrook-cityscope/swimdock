@@ -8,8 +8,6 @@ cwd = os.getcwd()
 data_dir = (os.path.dirname(cwd) + "/data/").replace("//", "/")
 empty_result_geojson = data_dir + "subcatchments.json"
 runoff_enum = shared_enum.SubcatchAttribute.RUNOFF_RATE
-default_scenario = data_dir + "scenario.out"
-
 # reads simulation duration and report_step_duration from inp file
 def get_sim_duration_and_report_step():
     # initialize a model model object
@@ -43,7 +41,7 @@ def get_geojson():
 
 
 # reads the simulation result, returns it in geojson format
-def get_result_geojson(from_scenario_path=default_scenario) -> dict:
+def get_result_geojson(from_scenario_path=str) -> dict:
     sim_duration, report_step = get_sim_duration_and_report_step()
 
     _handle = output.init()

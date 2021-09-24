@@ -1,9 +1,12 @@
 import time
-
+from os import getcwd
 import users
 from city_pyo import fetch_stormwater_scenarios, fetch_user_id, send_geojson
 from storm_water_management import perform_swmm_analysis
+from models import ScenarioPaths
+from typing import Final
 
+cwd: Final = getcwd()
 # Compute loop to run eternally
 if __name__ == "__main__":
     processed_scenarios = {}
@@ -25,17 +28,19 @@ if __name__ == "__main__":
     while True:
         for user_id in user_ids:
             # compute results for each scenario
-            scenarios = fetch_stormwater_scenarios(user_id)
-            for scenario_id in scenarios.keys():
-                try:
-                    processed_scenario = processed_scenarios[user_id][scenario_id]
-                    if processed_scenario != scenarios[scenario_id]["hash"]:
-                        # new hash, recomputation needed
-                        scenario = scenarios[scenario_id]
-                        geo_json = perform_swmm_analysis(scenario)
-                        send_geojson(user_id, scenario["hash"], geo_json)
-                        processed_scenarios[user_id][scenario_id] = scenario["hash"]
-                except KeyError:
-                    pass  # no result hash known for scenario_id. Compute result.
+
+            if (scenarios := fetch_stormwater_scenarios(user_id)) is not None:
+                for scenario_id in scenarios.keys():
+                    try:
+                        processed_scenario = processed_scenarios[user_id][scenario_id]
+                        if processed_scenario != scenarios[scenario_id]["hash"]:
+                            # new hash, recomputation needed
+                            scenario = scenarios[scenario_id]
+                            scenario_paths = ScenarioPaths(id=scenario_id)
+                            geo_json = perform_swmm_analysis(scenario, scenario_paths)
+                            send_geojson(user_id, scenario["hash"], geo_json)
+                            processed_scenarios[user_id][scenario_id] = scenario["hash"]
+                    except KeyError:
+                        pass  # no result hash known for scenario_id. Compute result.
 
             time.sleep(1)

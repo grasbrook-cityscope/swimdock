@@ -1,11 +1,11 @@
+from models import CityPyoLayer, CityPyoUser
 from typing import Optional
-
 import requests
 
 CITY_PYO_URL = "https://nc.hcu-hamburg.de/cityPyo/"
 
 
-def fetch_user_id(user_cred: dict) -> str:
+def fetch_user_id(user_cred: CityPyoUser) -> str:
     print("logging in to cityPyo")
     response = requests.post(CITY_PYO_URL + "login", json=user_cred)
     if response.status_code == 401:
@@ -14,7 +14,7 @@ def fetch_user_id(user_cred: dict) -> str:
     return response.json()["user_id"]
 
 
-def fetch_stormwater_scenarios(user_id: str) -> Optional[dict]:
+def fetch_stormwater_scenarios(user_id: str) -> Optional[CityPyoLayer]:
     data = {"userid": user_id, "layer": "stormwater_scenario"}
 
     try:
